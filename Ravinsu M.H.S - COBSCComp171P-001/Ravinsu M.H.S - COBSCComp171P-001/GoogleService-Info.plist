@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>758345404184-os0tnpvlov3heueam8lgl7o15p37o9fi.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.758345404184-os0tnpvlov3heueam8lgl7o15p37o9fi</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCBbahJYuDS1wMrAX0loP7x7JndZZL3JuU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>758345404184</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.sahanrv.Ravinsu-M-H-S---COBSCComp171P-001</string>
+	<key>PROJECT_ID</key>
+	<string>nibmconnect-e5a61</string>
+	<key>STORAGE_BUCKET</key>
+	<string>nibmconnect-e5a61.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:758345404184:ios:950b2cad87561d1c</string>
+	<key>DATABASE_URL</key>
+	<string>https://nibmconnect-e5a61.firebaseio.com</string>
+</dict>
+</plist>

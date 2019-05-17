@@ -1,0 +1,6 @@
+framework module Pods_Ravinsu_M_H_S___COBSCComp171P_001UITests {
+  umbrella header "Pods-Ravinsu M.H.S - COBSCComp171P-001UITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

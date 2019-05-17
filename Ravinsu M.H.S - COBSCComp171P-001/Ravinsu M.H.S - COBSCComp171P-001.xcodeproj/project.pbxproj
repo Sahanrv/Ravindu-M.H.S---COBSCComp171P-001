@@ -1,0 +1,831 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1455312EF969E235EB37E851 /* Pods_Ravinsu_M_H_S___COBSCComp171P_001UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51DB3BA3A93B2446B4586A47 /* Pods_Ravinsu_M_H_S___COBSCComp171P_001UITests.framework */; };
+		8291581989C1D8203A31C834 /* Pods_Ravinsu_M_H_S___COBSCComp171P_001.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B75905E1DB962375D171E161 /* Pods_Ravinsu_M_H_S___COBSCComp171P_001.framework */; };
+		A0632E0B4FCF934213CF7BEB /* Pods_Ravinsu_M_H_S___COBSCComp171P_001Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C02D35871BD784858387E24 /* Pods_Ravinsu_M_H_S___COBSCComp171P_001Tests.framework */; };
+		FB9431FA228D2718007BE79D /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = FB9431F9228D2718007BE79D /* logo.png */; };
+		FB9431FC228D275F007BE79D /* LounchScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9431FB228D275F007BE79D /* LounchScreenViewController.swift */; };
+		FB9431FE228D35B3007BE79D /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB9431FD228D35B2007BE79D /* Home.storyboard */; };
+		FB943200228D365A007BE79D /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB9431FF228D365A007BE79D /* Login.storyboard */; };
+		FB943202228D366D007BE79D /* SignUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB943201228D366D007BE79D /* SignUp.storyboard */; };
+		FB943204228D6948007BE79D /* AddStudentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB943203228D6948007BE79D /* AddStudentViewController.swift */; };
+		FBF6A1C8228C988800862F83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF6A1C7228C988800862F83 /* AppDelegate.swift */; };
+		FBF6A1CA228C988800862F83 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF6A1C9228C988800862F83 /* ViewController.swift */; };
+		FBF6A1CD228C988800862F83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBF6A1CB228C988800862F83 /* Main.storyboard */; };
+		FBF6A1CF228C988900862F83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBF6A1CE228C988900862F83 /* Assets.xcassets */; };
+		FBF6A1D2228C988900862F83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBF6A1D0228C988900862F83 /* LaunchScreen.storyboard */; };
+		FBF6A1DD228C988900862F83 /* Ravinsu_M_H_S___COBSCComp171P_001Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF6A1DC228C988900862F83 /* Ravinsu_M_H_S___COBSCComp171P_001Tests.swift */; };
+		FBF6A1E8228C988900862F83 /* Ravinsu_M_H_S___COBSCComp171P_001UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF6A1E7228C988900862F83 /* Ravinsu_M_H_S___COBSCComp171P_001UITests.swift */; };
+		FBF6A1F6228C9D2900862F83 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FBF6A1F5228C9D2900862F83 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FBF6A1D9228C988900862F83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBF6A1BC228C988800862F83 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBF6A1C3228C988800862F83;
+			remoteInfo = "Ravinsu M.H.S - COBSCComp171P-001";
+		};
+		FBF6A1E4228C988900862F83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBF6A1BC228C988800862F83 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBF6A1C3228C988800862F83;
+			remoteInfo = "Ravinsu M.H.S - COBSCComp171P-001";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0ABCC7314767F11A1AA02F20 /* Pods-Ravinsu M.H.S - COBSCComp171P-001Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ravinsu M.H.S - COBSCComp171P-001Tests.release.xcconfig"; path = "Target Support Files/Pods-Ravinsu M.H.S - COBSCComp171P-001Tests/Pods-Ravinsu M.H.S - COBSCComp171P-001Tests.release.xcconfig"; sourceTree = "<group>"; };
+		0B58723CD3A8FF4F928C929D /* Pods-Ravinsu M.H.S - COBSCComp171P-001UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ravinsu M.H.S - COBSCComp171P-001UITests.debug.xcconfig"; path = "Target Support Files/Pods-Ravinsu M.H.S - COBSCComp171P-001UITests/Pods-Ravinsu M.H.S - COBSCComp171P-001UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		31C1776AFBC1C156CEC204AC /* Pods-Ravinsu M.H.S - COBSCComp171P-001Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ravinsu M.H.S - COBSCComp171P-001Tests.debug.xcconfig"; path = "Target Support Files/Pods-Ravinsu M.H.S - COBSCComp171P-001Tests/Pods-Ravinsu M.H.S - COBSCComp171P-001Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		3AD8F6DA9A0432382094E55B /* Pods-Ravinsu M.H.S - COBSCComp171P-001UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ravinsu M.H.S - COBSCComp171P-001UITests.release.xcconfig"; path = "Target Support Files/Pods-Ravinsu M.H.S - COBSCComp171P-001UITests/Pods-Ravinsu M.H.S - COBSCComp171P-001UITests.release.xcconfig"; sourceTree = "<group>"; };
+		3EFAEB3D304DF705436EE77C /* Pods-Ravinsu M.H.S - COBSCComp171P-001.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ravinsu M.H.S - COBSCComp171P-001.release.xcconfig"; path = "Target Support Files/Pods-Ravinsu M.H.S - COBSCComp171P-001/Pods-Ravinsu M.H.S - COBSCComp171P-001.release.xcconfig"; sourceTree = "<group>"; };
+		51DB3BA3A93B2446B4586A47 /* Pods_Ravinsu_M_H_S___COBSCComp171P_001UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_Ravinsu_M_H_S___COBSCComp171P_001UITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C02D35871BD784858387E24 /* Pods_Ravinsu_M_H_S___COBSCComp171P_001Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_Ravinsu_M_H_S___COBSCComp171P_001Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		839D2C5D33B83BD01A4AD5D0 /* Pods-Ravinsu M.H.S - COBSCComp171P-001.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ravinsu M.H.S - COBSCComp171P-001.debug.xcconfig"; path = "Target Support Files/Pods-Ravinsu M.H.S - COBSCComp171P-001/Pods-Ravinsu M.H.S - COBSCComp171P-001.debug.xcconfig"; sourceTree = "<group>"; };
+		B75905E1DB962375D171E161 /* Pods_Ravinsu_M_H_S___COBSCComp171P_001.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_Ravinsu_M_H_S___COBSCComp171P_001.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB9431F9228D2718007BE79D /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		FB9431FB228D275F007BE79D /* LounchScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LounchScreenViewController.swift; sourceTree = "<group>"; };
+		FB9431FD228D35B2007BE79D /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		FB9431FF228D365A007BE79D /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		FB943201228D366D007BE79D /* SignUp.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignUp.storyboard; sourceTree = "<group>"; };
+		FB943203228D6948007BE79D /* AddStudentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStudentViewController.swift; sourceTree = "<group>"; };
+		FBF6A1C4228C988800862F83 /* Ravinsu M.H.S - COBSCComp171P-001.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ravinsu M.H.S - COBSCComp171P-001.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBF6A1C7228C988800862F83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FBF6A1C9228C988800862F83 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FBF6A1CC228C988800862F83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FBF6A1CE228C988900862F83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FBF6A1D1228C988900862F83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FBF6A1D3228C988900862F83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBF6A1D8228C988900862F83 /* Ravinsu M.H.S - COBSCComp171P-001Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ravinsu M.H.S - COBSCComp171P-001Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBF6A1DC228C988900862F83 /* Ravinsu_M_H_S___COBSCComp171P_001Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ravinsu_M_H_S___COBSCComp171P_001Tests.swift"; sourceTree = "<group>"; };
+		FBF6A1DE228C988900862F83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBF6A1E3228C988900862F83 /* Ravinsu M.H.S - COBSCComp171P-001UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ravinsu M.H.S - COBSCComp171P-001UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBF6A1E7228C988900862F83 /* Ravinsu_M_H_S___COBSCComp171P_001UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ravinsu_M_H_S___COBSCComp171P_001UITests.swift"; sourceTree = "<group>"; };
+		FBF6A1E9228C988900862F83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBF6A1F5228C9D2900862F83 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBF6A1C1228C988800862F83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8291581989C1D8203A31C834 /* Pods_Ravinsu_M_H_S___COBSCComp171P_001.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBF6A1D5228C988900862F83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0632E0B4FCF934213CF7BEB /* Pods_Ravinsu_M_H_S___COBSCComp171P_001Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBF6A1E0228C988900862F83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1455312EF969E235EB37E851 /* Pods_Ravinsu_M_H_S___COBSCComp171P_001UITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B065318B22C46813C01835A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B75905E1DB962375D171E161 /* Pods_Ravinsu_M_H_S___COBSCComp171P_001.framework */,
+				5C02D35871BD784858387E24 /* Pods_Ravinsu_M_H_S___COBSCComp171P_001Tests.framework */,
+				51DB3BA3A93B2446B4586A47 /* Pods_Ravinsu_M_H_S___COBSCComp171P_001UITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB7DBEFD330EC614B01619AF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				839D2C5D33B83BD01A4AD5D0 /* Pods-Ravinsu M.H.S - COBSCComp171P-001.debug.xcconfig */,
+				3EFAEB3D304DF705436EE77C /* Pods-Ravinsu M.H.S - COBSCComp171P-001.release.xcconfig */,
+				31C1776AFBC1C156CEC204AC /* Pods-Ravinsu M.H.S - COBSCComp171P-001Tests.debug.xcconfig */,
+				0ABCC7314767F11A1AA02F20 /* Pods-Ravinsu M.H.S - COBSCComp171P-001Tests.release.xcconfig */,
+				0B58723CD3A8FF4F928C929D /* Pods-Ravinsu M.H.S - COBSCComp171P-001UITests.debug.xcconfig */,
+				3AD8F6DA9A0432382094E55B /* Pods-Ravinsu M.H.S - COBSCComp171P-001UITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FB9431F4228D2409007BE79D /* views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		FB9431F5228D2414007BE79D /* models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		FB9431F6228D242C007BE79D /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FBF6A1C9228C988800862F83 /* ViewController.swift */,
+				FB9431FB228D275F007BE79D /* LounchScreenViewController.swift */,
+				FB943203228D6948007BE79D /* AddStudentViewController.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		FB9431F7228D2437007BE79D /* soryboads */ = {
+			isa = PBXGroup;
+			children = (
+				FBF6A1D0228C988900862F83 /* LaunchScreen.storyboard */,
+				FBF6A1CB228C988800862F83 /* Main.storyboard */,
+				FB9431FD228D35B2007BE79D /* Home.storyboard */,
+				FB9431FF228D365A007BE79D /* Login.storyboard */,
+				FB943201228D366D007BE79D /* SignUp.storyboard */,
+			);
+			path = soryboads;
+			sourceTree = "<group>";
+		};
+		FB9431F8228D2671007BE79D /* img */ = {
+			isa = PBXGroup;
+			children = (
+				FB9431F9228D2718007BE79D /* logo.png */,
+			);
+			path = img;
+			sourceTree = "<group>";
+		};
+		FBF6A1BB228C988800862F83 = {
+			isa = PBXGroup;
+			children = (
+				FBF6A1C6228C988800862F83 /* Ravinsu M.H.S - COBSCComp171P-001 */,
+				FBF6A1DB228C988900862F83 /* Ravinsu M.H.S - COBSCComp171P-001Tests */,
+				FBF6A1E6228C988900862F83 /* Ravinsu M.H.S - COBSCComp171P-001UITests */,
+				FBF6A1C5228C988800862F83 /* Products */,
+				CB7DBEFD330EC614B01619AF /* Pods */,
+				B065318B22C46813C01835A9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FBF6A1C5228C988800862F83 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBF6A1C4228C988800862F83 /* Ravinsu M.H.S - COBSCComp171P-001.app */,
+				FBF6A1D8228C988900862F83 /* Ravinsu M.H.S - COBSCComp171P-001Tests.xctest */,
+				FBF6A1E3228C988900862F83 /* Ravinsu M.H.S - COBSCComp171P-001UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBF6A1C6228C988800862F83 /* Ravinsu M.H.S - COBSCComp171P-001 */ = {
+			isa = PBXGroup;
+			children = (
+				FB9431F8228D2671007BE79D /* img */,
+				FB9431F7228D2437007BE79D /* soryboads */,
+				FB9431F6228D242C007BE79D /* controllers */,
+				FB9431F5228D2414007BE79D /* models */,
+				FB9431F4228D2409007BE79D /* views */,
+				FBF6A1C7228C988800862F83 /* AppDelegate.swift */,
+				FBF6A1CE228C988900862F83 /* Assets.xcassets */,
+				FBF6A1F5228C9D2900862F83 /* GoogleService-Info.plist */,
+				FBF6A1D3228C988900862F83 /* Info.plist */,
+			);
+			path = "Ravinsu M.H.S - COBSCComp171P-001";
+			sourceTree = "<group>";
+		};
+		FBF6A1DB228C988900862F83 /* Ravinsu M.H.S - COBSCComp171P-001Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FBF6A1DC228C988900862F83 /* Ravinsu_M_H_S___COBSCComp171P_001Tests.swift */,
+				FBF6A1DE228C988900862F83 /* Info.plist */,
+			);
+			path = "Ravinsu M.H.S - COBSCComp171P-001Tests";
+			sourceTree = "<group>";
+		};
+		FBF6A1E6228C988900862F83 /* Ravinsu M.H.S - COBSCComp171P-001UITests */ = {
+			isa = PBXGroup;
+			children = (
+				FBF6A1E7228C988900862F83 /* Ravinsu_M_H_S___COBSCComp171P_001UITests.swift */,
+				FBF6A1E9228C988900862F83 /* Info.plist */,
+			);
+			path = "Ravinsu M.H.S - COBSCComp171P-001UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBF6A1C3228C988800862F83 /* Ravinsu M.H.S - COBSCComp171P-001 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBF6A1EC228C988900862F83 /* Build configuration list for PBXNativeTarget "Ravinsu M.H.S - COBSCComp171P-001" */;
+			buildPhases = (
+				1BB56E6FC51E993570ACCF6E /* [CP] Check Pods Manifest.lock */,
+				FBF6A1C0228C988800862F83 /* Sources */,
+				FBF6A1C1228C988800862F83 /* Frameworks */,
+				FBF6A1C2228C988800862F83 /* Resources */,
+				0C28A669EE03F0BAAE450160 /* [CP] Embed Pods Frameworks */,
+				C77778001FF5A931244205A9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ravinsu M.H.S - COBSCComp171P-001";
+			productName = "Ravinsu M.H.S - COBSCComp171P-001";
+			productReference = FBF6A1C4228C988800862F83 /* Ravinsu M.H.S - COBSCComp171P-001.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FBF6A1D7228C988900862F83 /* Ravinsu M.H.S - COBSCComp171P-001Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBF6A1EF228C988900862F83 /* Build configuration list for PBXNativeTarget "Ravinsu M.H.S - COBSCComp171P-001Tests" */;
+			buildPhases = (
+				7839E41BEAB2859721F051D9 /* [CP] Check Pods Manifest.lock */,
+				FBF6A1D4228C988900862F83 /* Sources */,
+				FBF6A1D5228C988900862F83 /* Frameworks */,
+				FBF6A1D6228C988900862F83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBF6A1DA228C988900862F83 /* PBXTargetDependency */,
+			);
+			name = "Ravinsu M.H.S - COBSCComp171P-001Tests";
+			productName = "Ravinsu M.H.S - COBSCComp171P-001Tests";
+			productReference = FBF6A1D8228C988900862F83 /* Ravinsu M.H.S - COBSCComp171P-001Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FBF6A1E2228C988900862F83 /* Ravinsu M.H.S - COBSCComp171P-001UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBF6A1F2228C988900862F83 /* Build configuration list for PBXNativeTarget "Ravinsu M.H.S - COBSCComp171P-001UITests" */;
+			buildPhases = (
+				42345E22669EA4A53922819D /* [CP] Check Pods Manifest.lock */,
+				FBF6A1DF228C988900862F83 /* Sources */,
+				FBF6A1E0228C988900862F83 /* Frameworks */,
+				FBF6A1E1228C988900862F83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBF6A1E5228C988900862F83 /* PBXTargetDependency */,
+			);
+			name = "Ravinsu M.H.S - COBSCComp171P-001UITests";
+			productName = "Ravinsu M.H.S - COBSCComp171P-001UITests";
+			productReference = FBF6A1E3228C988900862F83 /* Ravinsu M.H.S - COBSCComp171P-001UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBF6A1BC228C988800862F83 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Sahan Ravindu";
+				TargetAttributes = {
+					FBF6A1C3228C988800862F83 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					FBF6A1D7228C988900862F83 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = FBF6A1C3228C988800862F83;
+					};
+					FBF6A1E2228C988900862F83 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = FBF6A1C3228C988800862F83;
+					};
+				};
+			};
+			buildConfigurationList = FBF6A1BF228C988800862F83 /* Build configuration list for PBXProject "Ravinsu M.H.S - COBSCComp171P-001" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FBF6A1BB228C988800862F83;
+			productRefGroup = FBF6A1C5228C988800862F83 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBF6A1C3228C988800862F83 /* Ravinsu M.H.S - COBSCComp171P-001 */,
+				FBF6A1D7228C988900862F83 /* Ravinsu M.H.S - COBSCComp171P-001Tests */,
+				FBF6A1E2228C988900862F83 /* Ravinsu M.H.S - COBSCComp171P-001UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBF6A1C2228C988800862F83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBF6A1D2228C988900862F83 /* LaunchScreen.storyboard in Resources */,
+				FB9431FA228D2718007BE79D /* logo.png in Resources */,
+				FB943200228D365A007BE79D /* Login.storyboard in Resources */,
+				FBF6A1F6228C9D2900862F83 /* GoogleService-Info.plist in Resources */,
+				FB9431FE228D35B3007BE79D /* Home.storyboard in Resources */,
+				FBF6A1CF228C988900862F83 /* Assets.xcassets in Resources */,
+				FB943202228D366D007BE79D /* SignUp.storyboard in Resources */,
+				FBF6A1CD228C988800862F83 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBF6A1D6228C988900862F83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBF6A1E1228C988900862F83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C28A669EE03F0BAAE450160 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ravinsu M.H.S - COBSCComp171P-001/Pods-Ravinsu M.H.S - COBSCComp171P-001-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Ravinsu M.H.S - COBSCComp171P-001/Pods-Ravinsu M.H.S - COBSCComp171P-001-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1BB56E6FC51E993570ACCF6E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ravinsu M.H.S - COBSCComp171P-001-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		42345E22669EA4A53922819D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ravinsu M.H.S - COBSCComp171P-001UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7839E41BEAB2859721F051D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ravinsu M.H.S - COBSCComp171P-001Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C77778001FF5A931244205A9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ravinsu M.H.S - COBSCComp171P-001/Pods-Ravinsu M.H.S - COBSCComp171P-001-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Ravinsu M.H.S - COBSCComp171P-001/Pods-Ravinsu M.H.S - COBSCComp171P-001-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBF6A1C0228C988800862F83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB943204228D6948007BE79D /* AddStudentViewController.swift in Sources */,
+				FBF6A1CA228C988800862F83 /* ViewController.swift in Sources */,
+				FB9431FC228D275F007BE79D /* LounchScreenViewController.swift in Sources */,
+				FBF6A1C8228C988800862F83 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBF6A1D4228C988900862F83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBF6A1DD228C988900862F83 /* Ravinsu_M_H_S___COBSCComp171P_001Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBF6A1DF228C988900862F83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBF6A1E8228C988900862F83 /* Ravinsu_M_H_S___COBSCComp171P_001UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FBF6A1DA228C988900862F83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBF6A1C3228C988800862F83 /* Ravinsu M.H.S - COBSCComp171P-001 */;
+			targetProxy = FBF6A1D9228C988900862F83 /* PBXContainerItemProxy */;
+		};
+		FBF6A1E5228C988900862F83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBF6A1C3228C988800862F83 /* Ravinsu M.H.S - COBSCComp171P-001 */;
+			targetProxy = FBF6A1E4228C988900862F83 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FBF6A1CB228C988800862F83 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBF6A1CC228C988800862F83 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FBF6A1D0228C988900862F83 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBF6A1D1228C988900862F83 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FBF6A1EA228C988900862F83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FBF6A1EB228C988900862F83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBF6A1ED228C988900862F83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 839D2C5D33B83BD01A4AD5D0 /* Pods-Ravinsu M.H.S - COBSCComp171P-001.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Ravinsu M.H.S - COBSCComp171P-001/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sahanrv.Ravinsu-M-H-S---COBSCComp171P-001";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FBF6A1EE228C988900862F83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EFAEB3D304DF705436EE77C /* Pods-Ravinsu M.H.S - COBSCComp171P-001.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Ravinsu M.H.S - COBSCComp171P-001/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sahanrv.Ravinsu-M-H-S---COBSCComp171P-001";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FBF6A1F0228C988900862F83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31C1776AFBC1C156CEC204AC /* Pods-Ravinsu M.H.S - COBSCComp171P-001Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Ravinsu M.H.S - COBSCComp171P-001Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sahanrv.Ravinsu-M-H-S---COBSCComp171P-001Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ravinsu M.H.S - COBSCComp171P-001.app/Ravinsu M.H.S - COBSCComp171P-001";
+			};
+			name = Debug;
+		};
+		FBF6A1F1228C988900862F83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0ABCC7314767F11A1AA02F20 /* Pods-Ravinsu M.H.S - COBSCComp171P-001Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Ravinsu M.H.S - COBSCComp171P-001Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sahanrv.Ravinsu-M-H-S---COBSCComp171P-001Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ravinsu M.H.S - COBSCComp171P-001.app/Ravinsu M.H.S - COBSCComp171P-001";
+			};
+			name = Release;
+		};
+		FBF6A1F3228C988900862F83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B58723CD3A8FF4F928C929D /* Pods-Ravinsu M.H.S - COBSCComp171P-001UITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Ravinsu M.H.S - COBSCComp171P-001UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sahanrv.Ravinsu-M-H-S---COBSCComp171P-001UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Ravinsu M.H.S - COBSCComp171P-001";
+			};
+			name = Debug;
+		};
+		FBF6A1F4228C988900862F83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AD8F6DA9A0432382094E55B /* Pods-Ravinsu M.H.S - COBSCComp171P-001UITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Ravinsu M.H.S - COBSCComp171P-001UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sahanrv.Ravinsu-M-H-S---COBSCComp171P-001UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Ravinsu M.H.S - COBSCComp171P-001";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBF6A1BF228C988800862F83 /* Build configuration list for PBXProject "Ravinsu M.H.S - COBSCComp171P-001" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBF6A1EA228C988900862F83 /* Debug */,
+				FBF6A1EB228C988900862F83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBF6A1EC228C988900862F83 /* Build configuration list for PBXNativeTarget "Ravinsu M.H.S - COBSCComp171P-001" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBF6A1ED228C988900862F83 /* Debug */,
+				FBF6A1EE228C988900862F83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBF6A1EF228C988900862F83 /* Build configuration list for PBXNativeTarget "Ravinsu M.H.S - COBSCComp171P-001Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBF6A1F0228C988900862F83 /* Debug */,
+				FBF6A1F1228C988900862F83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBF6A1F2228C988900862F83 /* Build configuration list for PBXNativeTarget "Ravinsu M.H.S - COBSCComp171P-001UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBF6A1F3228C988900862F83 /* Debug */,
+				FBF6A1F4228C988900862F83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBF6A1BC228C988800862F83 /* Project object */;
+}

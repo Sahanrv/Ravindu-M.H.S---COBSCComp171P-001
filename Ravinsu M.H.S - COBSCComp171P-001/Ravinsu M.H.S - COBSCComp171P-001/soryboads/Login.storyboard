@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ew0-LP-6g3">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="y07-HA-9xr">
+            <objects>
+                <viewController id="ew0-LP-6g3" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="WM4-mZ-wp3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="o1e-Wn-rOE">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Email" textAlignment="natural" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="OFv-fB-wbT">
+                                        <rect key="frame" x="20" y="111" width="335" height="30"/>
+                                        <color key="tintColor" red="0.27011986300000002" green="0.21353274829999999" blue="0.8768996147" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="tq3-8D-Xnr"/>
+                                            <constraint firstAttribute="width" constant="335" id="xyr-Ng-JD0"/>
+                                        </constraints>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                                <color key="backgroundColor" red="0.64114474610000005" green="0.36243681039999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="OFv-fB-wbT" firstAttribute="top" secondItem="o1e-Wn-rOE" secondAttribute="top" constant="111" id="OoH-D0-xm4"/>
+                                    <constraint firstAttribute="trailing" secondItem="OFv-fB-wbT" secondAttribute="trailing" constant="20" id="gEU-NG-x03"/>
+                                    <constraint firstItem="OFv-fB-wbT" firstAttribute="leading" secondItem="o1e-Wn-rOE" secondAttribute="leading" constant="20" id="rsf-Gk-eFu"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="o1e-Wn-rOE" firstAttribute="top" secondItem="WM4-mZ-wp3" secondAttribute="top" id="SSs-wY-nTP"/>
+                            <constraint firstAttribute="trailing" secondItem="o1e-Wn-rOE" secondAttribute="trailing" id="VCm-sQ-wsF"/>
+                            <constraint firstAttribute="bottom" secondItem="o1e-Wn-rOE" secondAttribute="bottom" id="fcv-cJ-Lmr"/>
+                            <constraint firstItem="o1e-Wn-rOE" firstAttribute="leading" secondItem="WM4-mZ-wp3" secondAttribute="leading" id="xuY-xn-Xbg"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Dhd-b0-KZc"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cVy-XX-b1L" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="232.80000000000001" y="139.880059970015"/>
+        </scene>
+    </scenes>
+</document>
