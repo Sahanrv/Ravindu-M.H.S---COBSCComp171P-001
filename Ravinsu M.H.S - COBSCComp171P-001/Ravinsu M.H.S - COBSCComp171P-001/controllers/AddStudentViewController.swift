@@ -27,6 +27,24 @@ class AddStudentViewController: UIViewController {
     var imagePicker:UIImagePickerController!
     var downloadImageUrl: String = ""
     var imageOriginal: String = ""
+    var dbReference: DatabaseReference!
+    
+    var fName: String = ""
+    var lName: String = ""
+    var fbUrl: String = ""
+    var phone: Int = 0
+    var city: String = ""
+    var imgProf: String = ""
+    
+    //Property Observer
+    var imagUrlSet = 0 {
+        didSet{
+            print("Did Set Setted : \(downloadImageUrl)")
+            
+            self.saveStudentData()
+        }
+    }
+    //End Property Oberver
     
     
     override func viewDidLoad() {
@@ -61,6 +79,8 @@ class AddStudentViewController: UIViewController {
         profileImg.addGestureRecognizer(imageTap)
         tapToChangeProfileButton.addTarget(self, action: #selector(openImagePicker), for: .touchUpInside)
         //end Image View Config
+        
+        
     }
     
     @IBAction func saveData(_ sender: Any) {
@@ -74,17 +94,46 @@ class AddStudentViewController: UIViewController {
      
         //2. Save User Data
         //3. Dismiss
+        
+        //var i: Int = 0
        
         self.uploadImage()
         
+        
+        self.fName = self.fNametxt.text!
+        self.lName = self.lNametxt.text!
+        self.fbUrl = self.fbUrltxt.text!
+        self.phone = Int(self.teltxt.text!)!
+        self.city = self.cityNametxt.text!
+        
+//        while true{
+//            if self.downloadImageUrl != ""{
+//                 self.saveStudentData()
+//                break
+//            }else{
+//                print("Loading.....")
+//
+//            }
+//        }
+       
+       
+        
+         //self.saveStudentData()
+        
+       
+        
     }
+    
+    //Delay Function
+
+    //End Delay Function
     
     @objc func openImagePicker(_ sender: Any) {
         self.present(imagePicker, animated: true, completion: nil)
     }
     
    
-    
+    //Start Upload Image
     func uploadImage(){
         
 
@@ -111,14 +160,23 @@ class AddStudentViewController: UIViewController {
             // You can also access to download URL after upload.
             let url = riversRef.downloadURL { (url, error) in
                 
-                self.downloadImageUrl = (url?.absoluteString)!
+                
                 guard let downloadURL = url else {
+                    
+                
                     
                     print("Error Img :\(error)")
                     return
                 }
                 
-                print("Download URL \(downloadURL)")
+                
+                self.downloadImageUrl = downloadURL.absoluteString
+                
+                
+                if self.downloadImageUrl != "" {self.imagUrlSet = 1}
+                print("Download URL \(self.downloadImageUrl)")
+                
+                
             }
             
             print("URL : \(self.downloadImageUrl)")
@@ -127,6 +185,41 @@ class AddStudentViewController: UIViewController {
         
 
     }
+    //End Upload Image
+    
+    //Start Save Data
+    func saveStudentData(){
+        
+        
+        dbReference = Database.database().reference().child("NIBMConnect/Students").childByAutoId()
+        
+        let student = ["fName": self.fName,
+                    "lName": self.lName,
+                    "fbUrl": self.fbUrl,
+                    "phone": self.phone,
+                    "city": self.city,
+                    "imgUrl": self.downloadImageUrl] as [String : Any]
+        
+        print(student)
+        
+        self.dbReference!.setValue(student){error, ref in
+
+             if error != nil{
+            let alert = UIAlertController(title: "Login Error!", message: error?.localizedDescription, preferredStyle: .alert)
+
+            alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+
+            self.present(alert, animated: true, completion: nil)
+
+             }else{
+
+                self.dismiss(animated: true, completion: nil)
+            }
+        }
+        
+        
+    }
+    //End Save Data
     
 
     /*

@@ -10,6 +10,9 @@
 		1455312EF969E235EB37E851 /* Pods_Ravinsu_M_H_S___COBSCComp171P_001UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51DB3BA3A93B2446B4586A47 /* Pods_Ravinsu_M_H_S___COBSCComp171P_001UITests.framework */; };
 		8291581989C1D8203A31C834 /* Pods_Ravinsu_M_H_S___COBSCComp171P_001.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B75905E1DB962375D171E161 /* Pods_Ravinsu_M_H_S___COBSCComp171P_001.framework */; };
 		A0632E0B4FCF934213CF7BEB /* Pods_Ravinsu_M_H_S___COBSCComp171P_001Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C02D35871BD784858387E24 /* Pods_Ravinsu_M_H_S___COBSCComp171P_001Tests.framework */; };
+		FB0A719D228F8A50008437C3 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0A719C228F8A50008437C3 /* Student.swift */; };
+		FB0A719F228FC5AD008437C3 /* tableTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0A719E228FC5AD008437C3 /* tableTableViewCell.swift */; };
+		FB0A71A1228FC66B008437C3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0A71A0228FC66B008437C3 /* HomeViewController.swift */; };
 		FB9431FA228D2718007BE79D /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = FB9431F9228D2718007BE79D /* logo.png */; };
 		FB9431FC228D275F007BE79D /* LounchScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9431FB228D275F007BE79D /* LounchScreenViewController.swift */; };
 		FB9431FE228D35B3007BE79D /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB9431FD228D35B2007BE79D /* Home.storyboard */; };
@@ -53,6 +56,9 @@
 		5C02D35871BD784858387E24 /* Pods_Ravinsu_M_H_S___COBSCComp171P_001Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_Ravinsu_M_H_S___COBSCComp171P_001Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		839D2C5D33B83BD01A4AD5D0 /* Pods-Ravinsu M.H.S - COBSCComp171P-001.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ravinsu M.H.S - COBSCComp171P-001.debug.xcconfig"; path = "Target Support Files/Pods-Ravinsu M.H.S - COBSCComp171P-001/Pods-Ravinsu M.H.S - COBSCComp171P-001.debug.xcconfig"; sourceTree = "<group>"; };
 		B75905E1DB962375D171E161 /* Pods_Ravinsu_M_H_S___COBSCComp171P_001.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_Ravinsu_M_H_S___COBSCComp171P_001.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB0A719C228F8A50008437C3 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		FB0A719E228FC5AD008437C3 /* tableTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableTableViewCell.swift; sourceTree = "<group>"; };
+		FB0A71A0228FC66B008437C3 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		FB9431F9228D2718007BE79D /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		FB9431FB228D275F007BE79D /* LounchScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LounchScreenViewController.swift; sourceTree = "<group>"; };
 		FB9431FD228D35B2007BE79D /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
@@ -136,6 +142,7 @@
 		FB9431F5228D2414007BE79D /* models */ = {
 			isa = PBXGroup;
 			children = (
+				FB0A719C228F8A50008437C3 /* Student.swift */,
 			);
 			path = models;
 			sourceTree = "<group>";
@@ -146,6 +153,7 @@
 				FBF6A1C9228C988800862F83 /* ViewController.swift */,
 				FB9431FB228D275F007BE79D /* LounchScreenViewController.swift */,
 				FB943203228D6948007BE79D /* AddStudentViewController.swift */,
+				FB0A71A0228FC66B008437C3 /* HomeViewController.swift */,
 			);
 			path = controllers;
 			sourceTree = "<group>";
@@ -204,6 +212,7 @@
 				FBF6A1CE228C988900862F83 /* Assets.xcassets */,
 				FBF6A1F5228C9D2900862F83 /* GoogleService-Info.plist */,
 				FBF6A1D3228C988900862F83 /* Info.plist */,
+				FB0A719E228FC5AD008437C3 /* tableTableViewCell.swift */,
 			);
 			path = "Ravinsu M.H.S - COBSCComp171P-001";
 			sourceTree = "<group>";
@@ -496,7 +505,10 @@
 			files = (
 				FB943204228D6948007BE79D /* AddStudentViewController.swift in Sources */,
 				FBF6A1CA228C988800862F83 /* ViewController.swift in Sources */,
+				FB0A719D228F8A50008437C3 /* Student.swift in Sources */,
 				FB9431FC228D275F007BE79D /* LounchScreenViewController.swift in Sources */,
+				FB0A719F228FC5AD008437C3 /* tableTableViewCell.swift in Sources */,
+				FB0A71A1228FC66B008437C3 /* HomeViewController.swift in Sources */,
 				FBF6A1C8228C988800862F83 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -682,7 +694,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sahanrv.Ravinsu-M-H-S---COBSCComp171P-001";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -700,7 +712,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sahanrv.Ravinsu-M-H-S---COBSCComp171P-001";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
