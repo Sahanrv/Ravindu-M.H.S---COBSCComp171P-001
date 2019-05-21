@@ -13,6 +13,7 @@
 		FB0A719D228F8A50008437C3 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0A719C228F8A50008437C3 /* Student.swift */; };
 		FB0A719F228FC5AD008437C3 /* tableTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0A719E228FC5AD008437C3 /* tableTableViewCell.swift */; };
 		FB0A71A1228FC66B008437C3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0A71A0228FC66B008437C3 /* HomeViewController.swift */; };
+		FB6216A922943438004F4E2A /* Re-setpasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6216A822943438004F4E2A /* Re-setpasswordViewController.swift */; };
 		FB9431FA228D2718007BE79D /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = FB9431F9228D2718007BE79D /* logo.png */; };
 		FB9431FE228D35B3007BE79D /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB9431FD228D35B2007BE79D /* Home.storyboard */; };
 		FB943200228D365A007BE79D /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB9431FF228D365A007BE79D /* Login.storyboard */; };
@@ -61,6 +62,7 @@
 		FB0A719C228F8A50008437C3 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
 		FB0A719E228FC5AD008437C3 /* tableTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableTableViewCell.swift; sourceTree = "<group>"; };
 		FB0A71A0228FC66B008437C3 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		FB6216A822943438004F4E2A /* Re-setpasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Re-setpasswordViewController.swift"; sourceTree = "<group>"; };
 		FB9431F9228D2718007BE79D /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		FB9431FD228D35B2007BE79D /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		FB9431FF228D365A007BE79D /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
@@ -159,6 +161,7 @@
 				FB0A71A0228FC66B008437C3 /* HomeViewController.swift */,
 				FBF1B2C52291DA5E0090E0CE /* showFriendsViewController.swift */,
 				FBBCD1492293B21000B9CD1D /* LogInViewController.swift */,
+				FB6216A822943438004F4E2A /* Re-setpasswordViewController.swift */,
 			);
 			path = controllers;
 			sourceTree = "<group>";
@@ -514,6 +517,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB943204228D6948007BE79D /* AddStudentViewController.swift in Sources */,
+				FB6216A922943438004F4E2A /* Re-setpasswordViewController.swift in Sources */,
 				FBF6A1CA228C988800862F83 /* ViewController.swift in Sources */,
 				FBBCD14A2293B21000B9CD1D /* LogInViewController.swift in Sources */,
 				FB0A719D228F8A50008437C3 /* Student.swift in Sources */,
