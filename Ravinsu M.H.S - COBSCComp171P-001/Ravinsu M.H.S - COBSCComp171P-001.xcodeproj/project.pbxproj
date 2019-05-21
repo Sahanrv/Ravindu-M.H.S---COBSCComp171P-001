@@ -14,11 +14,13 @@
 		FB0A719F228FC5AD008437C3 /* tableTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0A719E228FC5AD008437C3 /* tableTableViewCell.swift */; };
 		FB0A71A1228FC66B008437C3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0A71A0228FC66B008437C3 /* HomeViewController.swift */; };
 		FB9431FA228D2718007BE79D /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = FB9431F9228D2718007BE79D /* logo.png */; };
-		FB9431FC228D275F007BE79D /* LounchScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9431FB228D275F007BE79D /* LounchScreenViewController.swift */; };
 		FB9431FE228D35B3007BE79D /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB9431FD228D35B2007BE79D /* Home.storyboard */; };
 		FB943200228D365A007BE79D /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB9431FF228D365A007BE79D /* Login.storyboard */; };
 		FB943202228D366D007BE79D /* SignUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB943201228D366D007BE79D /* SignUp.storyboard */; };
 		FB943204228D6948007BE79D /* AddStudentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB943203228D6948007BE79D /* AddStudentViewController.swift */; };
+		FBBCD14A2293B21000B9CD1D /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBCD1492293B21000B9CD1D /* LogInViewController.swift */; };
+		FBBCD14C2293BD5000B9CD1D /* AppTempData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBCD14B2293BD5000B9CD1D /* AppTempData.swift */; };
+		FBF1B2C62291DA5E0090E0CE /* showFriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF1B2C52291DA5E0090E0CE /* showFriendsViewController.swift */; };
 		FBF6A1C8228C988800862F83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF6A1C7228C988800862F83 /* AppDelegate.swift */; };
 		FBF6A1CA228C988800862F83 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF6A1C9228C988800862F83 /* ViewController.swift */; };
 		FBF6A1CD228C988800862F83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBF6A1CB228C988800862F83 /* Main.storyboard */; };
@@ -60,11 +62,13 @@
 		FB0A719E228FC5AD008437C3 /* tableTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableTableViewCell.swift; sourceTree = "<group>"; };
 		FB0A71A0228FC66B008437C3 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		FB9431F9228D2718007BE79D /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
-		FB9431FB228D275F007BE79D /* LounchScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LounchScreenViewController.swift; sourceTree = "<group>"; };
 		FB9431FD228D35B2007BE79D /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		FB9431FF228D365A007BE79D /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		FB943201228D366D007BE79D /* SignUp.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignUp.storyboard; sourceTree = "<group>"; };
 		FB943203228D6948007BE79D /* AddStudentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStudentViewController.swift; sourceTree = "<group>"; };
+		FBBCD1492293B21000B9CD1D /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		FBBCD14B2293BD5000B9CD1D /* AppTempData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTempData.swift; sourceTree = "<group>"; };
+		FBF1B2C52291DA5E0090E0CE /* showFriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = showFriendsViewController.swift; sourceTree = "<group>"; };
 		FBF6A1C4228C988800862F83 /* Ravinsu M.H.S - COBSCComp171P-001.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ravinsu M.H.S - COBSCComp171P-001.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBF6A1C7228C988800862F83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FBF6A1C9228C988800862F83 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -151,9 +155,10 @@
 			isa = PBXGroup;
 			children = (
 				FBF6A1C9228C988800862F83 /* ViewController.swift */,
-				FB9431FB228D275F007BE79D /* LounchScreenViewController.swift */,
 				FB943203228D6948007BE79D /* AddStudentViewController.swift */,
 				FB0A71A0228FC66B008437C3 /* HomeViewController.swift */,
+				FBF1B2C52291DA5E0090E0CE /* showFriendsViewController.swift */,
+				FBBCD1492293B21000B9CD1D /* LogInViewController.swift */,
 			);
 			path = controllers;
 			sourceTree = "<group>";
@@ -203,6 +208,7 @@
 		FBF6A1C6228C988800862F83 /* Ravinsu M.H.S - COBSCComp171P-001 */ = {
 			isa = PBXGroup;
 			children = (
+				FBBCD14B2293BD5000B9CD1D /* AppTempData.swift */,
 				FB9431F8228D2671007BE79D /* img */,
 				FB9431F7228D2437007BE79D /* soryboads */,
 				FB9431F6228D242C007BE79D /* controllers */,
@@ -386,6 +392,8 @@
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/MDFInternationalization/MDFInternationalization.framework",
+				"${BUILT_PRODUCTS_DIR}/MaterialComponents/MaterialComponents.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
@@ -399,6 +407,8 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFInternationalization.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MaterialComponents.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
@@ -505,9 +515,11 @@
 			files = (
 				FB943204228D6948007BE79D /* AddStudentViewController.swift in Sources */,
 				FBF6A1CA228C988800862F83 /* ViewController.swift in Sources */,
+				FBBCD14A2293B21000B9CD1D /* LogInViewController.swift in Sources */,
 				FB0A719D228F8A50008437C3 /* Student.swift in Sources */,
-				FB9431FC228D275F007BE79D /* LounchScreenViewController.swift in Sources */,
 				FB0A719F228FC5AD008437C3 /* tableTableViewCell.swift in Sources */,
+				FBF1B2C62291DA5E0090E0CE /* showFriendsViewController.swift in Sources */,
+				FBBCD14C2293BD5000B9CD1D /* AppTempData.swift in Sources */,
 				FB0A71A1228FC66B008437C3 /* HomeViewController.swift in Sources */,
 				FBF6A1C8228C988800862F83 /* AppDelegate.swift in Sources */,
 			);

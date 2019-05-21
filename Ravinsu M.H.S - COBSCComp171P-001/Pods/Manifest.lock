@@ -84,6 +84,20 @@ PODS:
   - GTMSessionFetcher/Core (1.2.1)
   - Kingfisher (4.10.1)
   - leveldb-library (1.20)
+  - MaterialComponents/AnimationTiming (79.1.1)
+  - MaterialComponents/Palettes (79.1.1)
+  - MaterialComponents/private/Application (79.1.1)
+  - MaterialComponents/private/Math (79.1.1)
+  - MaterialComponents/TextFields (79.1.1):
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/Palettes
+    - MaterialComponents/private/Math
+    - MaterialComponents/Typography
+    - MDFInternationalization
+  - MaterialComponents/Typography (79.1.1):
+    - MaterialComponents/private/Application
+    - MaterialComponents/private/Math
+  - MDFInternationalization (2.0.0)
   - nanopb (0.3.901):
     - nanopb/decode (= 0.3.901)
     - nanopb/encode (= 0.3.901)
@@ -100,6 +114,7 @@ DEPENDENCIES:
   - Firebase/Storage
   - GoogleSignIn
   - Kingfisher (~> 4.0)
+  - MaterialComponents/TextFields
   - SwiftyJSON
 
 SPEC REPOS:
@@ -120,6 +135,8 @@ SPEC REPOS:
     - GTMSessionFetcher
     - Kingfisher
     - leveldb-library
+    - MaterialComponents
+    - MDFInternationalization
     - nanopb
     - SwiftyJSON
 
@@ -140,9 +157,11 @@ SPEC CHECKSUMS:
   GTMSessionFetcher: 32aeca0aa144acea523e1c8e053089dec2cb98ca
   Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
   leveldb-library: 08cba283675b7ed2d99629a4bc5fd052cd2bb6a5
+  MaterialComponents: 8b8a7a49da5b5c35bc8dab1173bb7d5f7a87b2f8
+  MDFInternationalization: 010097556d6b09d2c4ea38e0820ea6d37be6a314
   nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
   SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
 
-PODFILE CHECKSUM: 3c75706b2c02fa69dce9eae7b31d6426cb16e999
+PODFILE CHECKSUM: 81ec55bf25f8643cc26e172501b17deb0b6f6c71
 
 COCOAPODS: 1.6.1

@@ -23,6 +23,8 @@ class HomeViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        
+        //Initialized data refferencess
         ref = Database.database().reference()
         self.registerCell()
         self.getStudentList()
@@ -34,12 +36,15 @@ class HomeViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
         // Do any additional setup after loading the view.
     }
     
+    //call Registration
     func registerCell() {
         self.studentTable.register(UINib(nibName: "tableTableViewCell", bundle: nil), forCellReuseIdentifier: "tableTableViewCell")
         // self.tableView.register(singerViewCell.self, forCellReuseIdentifier: "singerViewCell")
     }
+    //End of cell registration
     
     
+    //Load student List
     func getStudentList() {
         //self.showActivity()
         
@@ -69,6 +74,7 @@ class HomeViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
             print(error.localizedDescription)
         }
     }
+    //End Of loading student List
     
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -90,6 +96,38 @@ class HomeViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
     
     
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "showstudent" {
+            let selectedIndex = sender as! Int
+            let selectedStudent = self.studentData[selectedIndex]
+            
+            let destinationVC = segue.destination as! showFriendsViewController
+            destinationVC.studentInfo = selectedStudent
+        }
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        self.performSegue(withIdentifier: "showstudent", sender: indexPath.row)
+        tableView.deselectRow(at: indexPath, animated: true)
+    }
+    
+    //Log out btn
+    @IBAction func logOut(_ sender: Any) {
+        
+        let firebaseAuth = Auth.auth()
+        do {
+            try firebaseAuth.signOut()
+        } catch let signOutError as NSError {
+            print ("Error signing out: %@", signOutError)
+            let alert = UIAlertController(title: "Login Error", message: signOutError.localizedDescription, preferredStyle:.alert)
+            alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+            self.present(alert, animated: true, completion: nil)
+        }
+        
+        self.navigationController?.dismiss(animated: true)
+    }
+    
+    //End of log out btn
     
 
     /*

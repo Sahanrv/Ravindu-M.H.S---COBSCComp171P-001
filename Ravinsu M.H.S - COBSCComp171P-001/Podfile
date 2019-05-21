@@ -26,7 +26,7 @@ target 'Ravinsu M.H.S - COBSCComp171P-001' do
 	pod 'Kingfisher', '~> 4.0'
   pod 'Firebase/Storage'
   pod 'Firebase/Analytics'
-
+  pod 'MaterialComponents/TextFields'
 
 
 end

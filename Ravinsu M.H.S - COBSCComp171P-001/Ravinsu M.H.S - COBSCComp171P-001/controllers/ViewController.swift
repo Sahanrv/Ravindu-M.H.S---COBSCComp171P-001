@@ -7,35 +7,47 @@
 //
 
 import UIKit
+import Firebase
+import FirebaseAuth
 
 class ViewController: UIViewController {
-    @IBOutlet weak var btnLogIn: UIButton!
-    @IBOutlet weak var btnSignUp: UIButton!
-    @IBOutlet weak var imgMain: UIImageView!
+
+  var ref: DatabaseReference!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        //btn logIn
-        btnLogIn.layer.borderWidth = 1.0
-        btnLogIn.layer.borderColor = UIColor.white.cgColor
-        btnLogIn.layer.cornerRadius = self.btnLogIn.bounds.height / 2
-        //end btn logIn
-
-        //btn signUp
-        btnSignUp.layer.borderWidth = 1.0
-        btnSignUp.layer.borderColor = UIColor.white.cgColor
-        btnSignUp.layer.cornerRadius = self.btnSignUp.bounds.height / 2
-        //end btn signUp
-        
-        //add image to the image view
-        self.imgMain.image = UIImage.init(named: "logo")
-        //end image view
-        
         
         // Do any additional setup after loading the view, typically from a nib.
     }
-
+    
+    
+     //Check User Siged In?
+    override func viewWillAppear(_ animated: Bool) {
+        Apptempdata.userHandle = Auth.auth().addStateDidChangeListener {(auth, user) in
+            
+            if user == nil {
+                // If the user didn't login
+                self.performSegue(withIdentifier: "login", sender: nil)
+                
+            }
+                
+            else {
+                //If the user has been logged
+                self.performSegue(withIdentifier: "home", sender: nil)
+                
+            }
+        }
+        
+    }
+    //End of Checking User Siged In?
+    
+    //
+    override func viewDidDisappear(_ animated: Bool) {
+        Auth.auth().removeStateDidChangeListener(Apptempdata.userHandle!)
+    }
+    
+//
 
 }
 

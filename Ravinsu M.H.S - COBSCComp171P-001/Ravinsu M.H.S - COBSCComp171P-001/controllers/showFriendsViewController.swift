@@ -1,26 +1,27 @@
 //
-//  LounchScreenViewController.swift
+//  showFriendsViewController.swift
 //  Ravinsu M.H.S - COBSCComp171P-001
 //
-//  Created by Sahan Ravindu on 5/16/19.
+//  Created by Sahan Ravindu on 5/20/19.
 //  Copyright © 2019 Sahan Ravindu. All rights reserved.
 //
 
 import UIKit
+import Kingfisher
 
-class LounchScreenViewController: UIViewController {
+class showFriendsViewController: UIViewController {
 
-    @IBOutlet weak var imgView: UIImageView!
-    
-    
+    @IBOutlet weak var studentImg: UIImageView!
+    @IBOutlet weak var studentName: UILabel!
+    var studentInfo : Student!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-       
+        studentName.text = studentInfo.fName + " " + studentInfo.lName
+        let url = URL(string: studentInfo.profUrl)
+        studentImg.kf.setImage(with: url)
         // Do any additional setup after loading the view.
     }
-    
     
 
     /*
