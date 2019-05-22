@@ -33,7 +33,7 @@ class SignUpViewController: UIViewController {
     var dbReference: DatabaseReference!
     var downloadImageUrl: String = ""
     var imageOriginal: String = ""
-    var user: [User] = []
+    var userarr: [User] = []
     
     //Temp user detail
     let uName: String = ""
@@ -49,7 +49,7 @@ class SignUpViewController: UIViewController {
         didSet{
             print("Did Set Setted : \(downloadImageUrl)")
             
-            //self.signup()
+            self.signup()
         }
     }
     //End Property Oberver
@@ -109,17 +109,25 @@ class SignUpViewController: UIViewController {
     //Convert and get data from picker
     func setdate(date:Date){
         
+        
+        
         let df = DateFormatter()
         df.dateFormat = "yyyy-MM-dd"
         let bday = df.string(from: date)
         self.birthDate.text = bday
+        let today = Date()
+        //let bd = date
+        //let age = today.timeIntervalSince(date)
+       // let components = Calendar.dateComponents([.year, .month, .day], from: date, to: today)
+       // let age = today
+        print("Age \(age)")
         
     }
    //End data getting
     
     @IBAction func saveData(_ sender: Any) {
         
-        
+        self.uploadImage()
         
     }
     
@@ -127,6 +135,126 @@ class SignUpViewController: UIViewController {
     @IBAction func cancelSignUp(_ sender: Any) {
         self.dismiss(animated: true, completion: nil)
     }
+    
+    
+    //Start Upload Image
+    func uploadImage(){
+        
+        
+        let storageRef = Storage.storage().reference()
+        
+        
+        // Data in memory
+        guard let data = self.profImgView.image!.jpegData(compressionQuality: 0.75) else {return}
+        let image: UIImage = self.profImgView.image!
+        print("Image Data : \(image)")
+        // Create a reference to the file you want to upload
+        let riversRef = storageRef.child("images/user/\(imageOriginal)")
+        
+        // Upload the file to the path "images/rivers.jpg"
+        let uploadTask = riversRef.putData(data, metadata: nil) { (metadata, error) in
+            guard let metadata = metadata else {
+                // Uh-oh, an error occurred!
+                return
+            }
+            
+            print("Meta Data : \(metadata)")
+            // Metadata contains file metadata such as size, content-type.
+            let size = metadata.size
+            // You can also access to download URL after upload.
+            let url = riversRef.downloadURL { (url, error) in
+                
+                
+                guard let downloadURL = url else {
+                    
+                    
+                    
+                    print("Error Img :\(error)")
+                    return
+                }
+                
+                
+                self.downloadImageUrl = downloadURL.absoluteString
+                
+                
+                if self.downloadImageUrl != "" {self.imagUrlSet = 1}
+                print("Download URL \(self.downloadImageUrl)")
+                
+                
+            }
+            
+            print("URL : \(self.downloadImageUrl)")
+        }
+        
+        
+        
+    }
+    //End Upload Image
+    
+    
+    //Start Save Data
+    func signup(){
+        
+        let userdata = User(uName: self.name.text!, uBod: self.birthDate.text!, uAge: Int(self.age.text!)!, uPhone: Int(self.phoneNumber.text!)!, uProfImgUrl: self.downloadImageUrl, uEmail: self.email.text!, uPassword: self.password.text!)
+        
+        
+        self.userarr.append(userdata)
+        
+        Auth.auth().createUser(withEmail: self.email.text!, password: self.password.text!) { authResult, error in
+            // ...
+            
+            if error == nil && authResult != nil {
+                guard let uid = Auth.auth().currentUser?.uid else {return}
+                
+                self.dbReference = Database.database().reference().child("user/profile/\(uid)")
+                
+                let user = [
+                    "uName": self.userarr[0].uName,
+                    "uBod": self.userarr[0].uBod,
+                    "uAge": self.userarr[0].uAge,
+                    "uPhone": self.userarr[0].uPhone,
+                    "uProfileImage": self.userarr[0].uProfImgUrl
+                    ] as [String: Any]
+                
+                
+                self.dbReference!.setValue(user){errorsave, ref in
+                    
+                    if errorsave != nil{
+                        let alert = UIAlertController(title: "Sign Up Error!", message: errorsave?.localizedDescription, preferredStyle: .alert)
+                        
+                        alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+                        
+                        self.present(alert, animated: true, completion: nil)
+                        
+                    }else{
+                        
+                        self.dismiss(animated: true, completion: nil)
+                    }
+                }
+                
+            }else{
+                if error != nil{
+                    let alert = UIAlertController(title: "Sign Up Error!", message: error?.localizedDescription, preferredStyle: .alert)
+                    
+                    alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+                    
+                    self.present(alert, animated: true, completion: nil)
+                    
+                }else{
+                    
+                    self.dismiss(animated: true, completion: nil)
+                }
+            }
+            
+            
+            
+        }
+        
+        
+        
+    }
+    //End Save Data
+    
     
     
     /*

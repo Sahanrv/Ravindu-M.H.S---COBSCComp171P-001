@@ -14,16 +14,18 @@ class User{
     let uName: String!
     let uBod: String!
     let uAge: Int!
+    let uPhone: Int!
     let uProfImgUrl: String!
     let uEmail: String!
     let uPassword: String!
     
-    init(uName: String, uBod: String, uAge:Int!, uProfImgUrl: String, uEmail: String, uPassword: String){
+    init(uName: String, uBod: String, uAge:Int!, uPhone: Int!, uProfImgUrl: String, uEmail: String, uPassword: String){
         
         // self.id = id
         self.uName = uName
         self.uBod = uBod
         self.uAge = uAge
+        self.uPhone = uPhone
         self.uProfImgUrl = uProfImgUrl
         self.uEmail = uEmail
         self.uPassword = uPassword
