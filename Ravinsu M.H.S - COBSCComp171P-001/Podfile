@@ -27,6 +27,8 @@ target 'Ravinsu M.H.S - COBSCComp171P-001' do
   pod 'Firebase/Storage'
   pod 'Firebase/Analytics'
   pod 'MaterialComponents/TextFields'
-
+  pod 'IQKeyboardManagerSwift'
+  pod 'SwiftyPickerPopover'
+  pod 'DatePicker', '1.0.0'
 
 end

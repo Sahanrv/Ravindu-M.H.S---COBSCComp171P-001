@@ -1,5 +1,8 @@
 PODS:
   - Alamofire (4.8.1)
+  - DatePicker (1.0.0):
+    - Extended (~> 1.0.4)
+  - Extended (1.0.5)
   - Firebase/Analytics (5.18.0):
     - Firebase/Core
   - Firebase/Auth (5.18.0):
@@ -82,6 +85,7 @@ PODS:
   - GoogleUtilities/UserDefaults (5.5.0):
     - GoogleUtilities/Logger
   - GTMSessionFetcher/Core (1.2.1)
+  - IQKeyboardManagerSwift (6.2.0)
   - Kingfisher (4.10.1)
   - leveldb-library (1.20)
   - MaterialComponents/AnimationTiming (79.1.1)
@@ -104,22 +108,28 @@ PODS:
   - nanopb/decode (0.3.901)
   - nanopb/encode (0.3.901)
   - SwiftyJSON (4.2.0)
+  - SwiftyPickerPopover (6.6.5)
 
 DEPENDENCIES:
   - Alamofire (~> 4.4)
+  - DatePicker (= 1.0.0)
   - Firebase/Analytics
   - Firebase/Auth
   - Firebase/Core
   - Firebase/Database
   - Firebase/Storage
   - GoogleSignIn
+  - IQKeyboardManagerSwift
   - Kingfisher (~> 4.0)
   - MaterialComponents/TextFields
   - SwiftyJSON
+  - SwiftyPickerPopover
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Alamofire
+    - DatePicker
+    - Extended
     - Firebase
     - FirebaseAnalytics
     - FirebaseAuth
@@ -133,15 +143,19 @@ SPEC REPOS:
     - GoogleToolboxForMac
     - GoogleUtilities
     - GTMSessionFetcher
+    - IQKeyboardManagerSwift
     - Kingfisher
     - leveldb-library
     - MaterialComponents
     - MDFInternationalization
     - nanopb
     - SwiftyJSON
+    - SwiftyPickerPopover
 
 SPEC CHECKSUMS:
   Alamofire: 16ce2c353fb72865124ddae8a57c5942388f4f11
+  DatePicker: 7eb10cf9d75d2ff975e3724763d4df8f2cf96ce1
+  Extended: c463225e0c29b2823847866c1b106827772ac678
   Firebase: 02f3281965c075426141a0ce1277e9de6649cab9
   FirebaseAnalytics: 23851fe602c872130a2c5c55040b302120346cc2
   FirebaseAuth: d85d052354447f30b4b2a805ab91b511458b56a6
@@ -155,13 +169,15 @@ SPEC CHECKSUMS:
   GoogleToolboxForMac: ff31605b7d66400dcec09bed5861689aebadda4d
   GoogleUtilities: 6481e6318c5fcabaaa8513ef8120f329055d7c10
   GTMSessionFetcher: 32aeca0aa144acea523e1c8e053089dec2cb98ca
+  IQKeyboardManagerSwift: b07ccf9d8cafe993dcd6cb794eb4ba34611a0c4e
   Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
   leveldb-library: 08cba283675b7ed2d99629a4bc5fd052cd2bb6a5
   MaterialComponents: 8b8a7a49da5b5c35bc8dab1173bb7d5f7a87b2f8
   MDFInternationalization: 010097556d6b09d2c4ea38e0820ea6d37be6a314
   nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
   SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
+  SwiftyPickerPopover: f2975fd0233d04c0a8f8d52d09b6f24b882de6fb
 
-PODFILE CHECKSUM: 81ec55bf25f8643cc26e172501b17deb0b6f6c71
+PODFILE CHECKSUM: d1d52e45d4182a79e9ee7172aa5634cf4876a7cc
 
 COCOAPODS: 1.6.1

@@ -17,10 +17,11 @@
 		FB9431FA228D2718007BE79D /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = FB9431F9228D2718007BE79D /* logo.png */; };
 		FB9431FE228D35B3007BE79D /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB9431FD228D35B2007BE79D /* Home.storyboard */; };
 		FB943200228D365A007BE79D /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB9431FF228D365A007BE79D /* Login.storyboard */; };
-		FB943202228D366D007BE79D /* SignUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB943201228D366D007BE79D /* SignUp.storyboard */; };
 		FB943204228D6948007BE79D /* AddStudentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB943203228D6948007BE79D /* AddStudentViewController.swift */; };
 		FBBCD14A2293B21000B9CD1D /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBCD1492293B21000B9CD1D /* LogInViewController.swift */; };
 		FBBCD14C2293BD5000B9CD1D /* AppTempData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBCD14B2293BD5000B9CD1D /* AppTempData.swift */; };
+		FBECCB4722952281001ADF27 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBECCB4622952281001ADF27 /* SignUpViewController.swift */; };
+		FBECCB4922954C28001ADF27 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBECCB4822954C28001ADF27 /* User.swift */; };
 		FBF1B2C62291DA5E0090E0CE /* showFriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF1B2C52291DA5E0090E0CE /* showFriendsViewController.swift */; };
 		FBF6A1C8228C988800862F83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF6A1C7228C988800862F83 /* AppDelegate.swift */; };
 		FBF6A1CA228C988800862F83 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF6A1C9228C988800862F83 /* ViewController.swift */; };
@@ -66,10 +67,11 @@
 		FB9431F9228D2718007BE79D /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		FB9431FD228D35B2007BE79D /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		FB9431FF228D365A007BE79D /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
-		FB943201228D366D007BE79D /* SignUp.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignUp.storyboard; sourceTree = "<group>"; };
 		FB943203228D6948007BE79D /* AddStudentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStudentViewController.swift; sourceTree = "<group>"; };
 		FBBCD1492293B21000B9CD1D /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		FBBCD14B2293BD5000B9CD1D /* AppTempData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTempData.swift; sourceTree = "<group>"; };
+		FBECCB4622952281001ADF27 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		FBECCB4822954C28001ADF27 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		FBF1B2C52291DA5E0090E0CE /* showFriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = showFriendsViewController.swift; sourceTree = "<group>"; };
 		FBF6A1C4228C988800862F83 /* Ravinsu M.H.S - COBSCComp171P-001.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ravinsu M.H.S - COBSCComp171P-001.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBF6A1C7228C988800862F83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -141,6 +143,7 @@
 		FB9431F4228D2409007BE79D /* views */ = {
 			isa = PBXGroup;
 			children = (
+				FB0A719E228FC5AD008437C3 /* tableTableViewCell.swift */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -148,7 +151,9 @@
 		FB9431F5228D2414007BE79D /* models */ = {
 			isa = PBXGroup;
 			children = (
+				FBBCD14B2293BD5000B9CD1D /* AppTempData.swift */,
 				FB0A719C228F8A50008437C3 /* Student.swift */,
+				FBECCB4822954C28001ADF27 /* User.swift */,
 			);
 			path = models;
 			sourceTree = "<group>";
@@ -156,12 +161,9 @@
 		FB9431F6228D242C007BE79D /* controllers */ = {
 			isa = PBXGroup;
 			children = (
-				FBF6A1C9228C988800862F83 /* ViewController.swift */,
-				FB943203228D6948007BE79D /* AddStudentViewController.swift */,
-				FB0A71A0228FC66B008437C3 /* HomeViewController.swift */,
-				FBF1B2C52291DA5E0090E0CE /* showFriendsViewController.swift */,
-				FBBCD1492293B21000B9CD1D /* LogInViewController.swift */,
-				FB6216A822943438004F4E2A /* Re-setpasswordViewController.swift */,
+				FBECCB45229521EC001ADF27 /* Login */,
+				FBECCB44229521E1001ADF27 /* Home */,
+				FBECCB43229521D5001ADF27 /* Main */,
 			);
 			path = controllers;
 			sourceTree = "<group>";
@@ -173,7 +175,6 @@
 				FBF6A1CB228C988800862F83 /* Main.storyboard */,
 				FB9431FD228D35B2007BE79D /* Home.storyboard */,
 				FB9431FF228D365A007BE79D /* Login.storyboard */,
-				FB943201228D366D007BE79D /* SignUp.storyboard */,
 			);
 			path = soryboads;
 			sourceTree = "<group>";
@@ -184,6 +185,34 @@
 				FB9431F9228D2718007BE79D /* logo.png */,
 			);
 			path = img;
+			sourceTree = "<group>";
+		};
+		FBECCB43229521D5001ADF27 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				FBF6A1C9228C988800862F83 /* ViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		FBECCB44229521E1001ADF27 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				FB0A71A0228FC66B008437C3 /* HomeViewController.swift */,
+				FB943203228D6948007BE79D /* AddStudentViewController.swift */,
+				FBF1B2C52291DA5E0090E0CE /* showFriendsViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		FBECCB45229521EC001ADF27 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				FBBCD1492293B21000B9CD1D /* LogInViewController.swift */,
+				FB6216A822943438004F4E2A /* Re-setpasswordViewController.swift */,
+				FBECCB4622952281001ADF27 /* SignUpViewController.swift */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 		FBF6A1BB228C988800862F83 = {
@@ -211,17 +240,15 @@
 		FBF6A1C6228C988800862F83 /* Ravinsu M.H.S - COBSCComp171P-001 */ = {
 			isa = PBXGroup;
 			children = (
-				FBBCD14B2293BD5000B9CD1D /* AppTempData.swift */,
+				FBF6A1D3228C988900862F83 /* Info.plist */,
+				FBF6A1F5228C9D2900862F83 /* GoogleService-Info.plist */,
+				FBF6A1C7228C988800862F83 /* AppDelegate.swift */,
 				FB9431F8228D2671007BE79D /* img */,
 				FB9431F7228D2437007BE79D /* soryboads */,
 				FB9431F6228D242C007BE79D /* controllers */,
 				FB9431F5228D2414007BE79D /* models */,
 				FB9431F4228D2409007BE79D /* views */,
-				FBF6A1C7228C988800862F83 /* AppDelegate.swift */,
 				FBF6A1CE228C988900862F83 /* Assets.xcassets */,
-				FBF6A1F5228C9D2900862F83 /* GoogleService-Info.plist */,
-				FBF6A1D3228C988900862F83 /* Info.plist */,
-				FB0A719E228FC5AD008437C3 /* tableTableViewCell.swift */,
 			);
 			path = "Ravinsu M.H.S - COBSCComp171P-001";
 			sourceTree = "<group>";
@@ -359,7 +386,6 @@
 				FBF6A1F6228C9D2900862F83 /* GoogleService-Info.plist in Resources */,
 				FB9431FE228D35B3007BE79D /* Home.storyboard in Resources */,
 				FBF6A1CF228C988900862F83 /* Assets.xcassets in Resources */,
-				FB943202228D366D007BE79D /* SignUp.storyboard in Resources */,
 				FBF6A1CD228C988800862F83 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -391,13 +417,17 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Ravinsu M.H.S - COBSCComp171P-001/Pods-Ravinsu M.H.S - COBSCComp171P-001-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/DatePicker/DatePicker.framework",
+				"${BUILT_PRODUCTS_DIR}/Extended/Extended.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/MDFInternationalization/MDFInternationalization.framework",
 				"${BUILT_PRODUCTS_DIR}/MaterialComponents/MaterialComponents.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyPickerPopover/SwiftyPickerPopover.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
@@ -406,13 +436,17 @@
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DatePicker.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Extended.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFInternationalization.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MaterialComponents.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyPickerPopover.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
@@ -516,6 +550,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBECCB4722952281001ADF27 /* SignUpViewController.swift in Sources */,
+				FBECCB4922954C28001ADF27 /* User.swift in Sources */,
 				FB943204228D6948007BE79D /* AddStudentViewController.swift in Sources */,
 				FB6216A922943438004F4E2A /* Re-setpasswordViewController.swift in Sources */,
 				FBF6A1CA228C988800862F83 /* ViewController.swift in Sources */,
