@@ -50,7 +50,9 @@
                                             <constraint firstAttribute="width" constant="185" id="sdU-Zf-OBW"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                        <state key="normal" title="Sign In"/>
+                                        <state key="normal" title="Sign In">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
                                         <connections>
                                             <action selector="signIn:" destination="ew0-LP-6g3" eventType="touchUpInside" id="lqC-xY-rOJ"/>
                                         </connections>
@@ -62,7 +64,9 @@
                                             <constraint firstAttribute="height" constant="34" id="ubS-57-NFQ"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                        <state key="normal" title="Foget password ?"/>
+                                        <state key="normal" title="Foget password ?">
+                                            <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
                                         <connections>
                                             <segue destination="t8c-tJ-zbO" kind="presentation" id="sEc-Gu-UuK"/>
                                         </connections>
@@ -113,7 +117,7 @@
                                         </connections>
                                     </segmentedControl>
                                 </subviews>
-                                <color key="backgroundColor" red="0.64114474610000005" green="0.36243681039999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstItem="NKc-Xm-TFg" firstAttribute="top" secondItem="o1e-Wn-rOE" secondAttribute="top" constant="204" id="172-Q9-O0e"/>
                                     <constraint firstItem="Iqi-Uq-WEY" firstAttribute="leading" secondItem="o1e-Wn-rOE" secondAttribute="leading" constant="22" id="4ql-Vw-cih"/>
@@ -306,7 +310,7 @@
                                         <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                     </textField>
                                 </subviews>
-                                <color key="backgroundColor" red="0.64114474610000005" green="0.36243681039999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="nXW-Z9-0dX" secondAttribute="trailing" constant="19" id="180-Xq-EnL"/>
                                     <constraint firstItem="ejL-n3-dzq" firstAttribute="top" secondItem="GsT-9D-FT7" secondAttribute="top" constant="563" id="3a1-Sy-Z3a"/>
@@ -408,7 +412,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
-                                        <color key="backgroundColor" red="0.64114474610000005" green="0.36243681039999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <gestureRecognizers/>
                                         <constraints>
                                             <constraint firstItem="Ocm-Y9-ScW" firstAttribute="top" secondItem="dY1-ac-Ulr" secondAttribute="top" constant="371" id="2bS-gS-RKa"/>
@@ -438,7 +442,7 @@
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                         <state key="normal" title="Reset ">
-                                            <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
                                             <action selector="ResetPassword:" destination="t8c-tJ-zbO" eventType="touchUpInside" id="0WN-gB-7wq"/>
@@ -462,13 +466,15 @@
                                             <constraint firstAttribute="height" constant="39" id="rGr-9d-pd8"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                        <state key="normal" title="Cancel"/>
+                                        <state key="normal" title="Cancel">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
                                         <connections>
                                             <action selector="Cancel:" destination="t8c-tJ-zbO" eventType="touchUpInside" id="QXd-nP-W4L"/>
                                         </connections>
                                     </button>
                                 </subviews>
-                                <color key="backgroundColor" red="0.64114474610000005" green="0.36243681039999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstItem="dY1-ac-Ulr" firstAttribute="leading" secondItem="yVT-qy-ZMv" secondAttribute="leading" id="2z7-I5-egU"/>
                                     <constraint firstItem="L4E-pH-B6B" firstAttribute="leading" secondItem="yVT-qy-ZMv" secondAttribute="leading" constant="114" id="BxE-fZ-pJS"/>

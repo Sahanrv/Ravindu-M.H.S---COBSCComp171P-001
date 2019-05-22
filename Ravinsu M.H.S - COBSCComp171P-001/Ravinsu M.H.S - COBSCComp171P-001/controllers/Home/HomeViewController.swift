@@ -18,11 +18,14 @@ class HomeViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
     @IBOutlet weak var studentTable: UITableView!
     
     var studentData: [Student] = []
+    var userData: [User] = []
     var ref: DatabaseReference!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        //Load user data to user model
+       // self.getViewUserData()
         
         //Initialized data refferencess
         ref = Database.database().reference()
@@ -52,7 +55,7 @@ class HomeViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
             // Get user value
             let value = snapshot.value as? NSDictionary
             //let singersList = value!
-            print(value!)
+           // print(value!)
             var newstudent: [Student] = []
             
             if snapshot.childrenCount > 0 {
@@ -126,9 +129,38 @@ class HomeViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
         
         self.navigationController?.dismiss(animated: true)
     }
-    
     //End of log out btn
     
+    
+    //Get user data
+    func getViewUserData(){
+        
+        let userID = Auth.auth().currentUser?.uid
+        
+        Database.database().reference().child("users/user/").child(userID!).observeSingleEvent(of: .value, with: {(DataSnapshot) in
+            
+            if let userProf = DataSnapshot.value as? [String : AnyObject]{
+                
+                _ = User(
+                    uName: userProf["uName"] as! String,
+                    uBod: userProf["uBod"] as! String,
+                    uAge: userProf["uAge"] as? Int,
+                    uPhone: userProf["uPhone"] as? Int,
+                    uProfImgUrl: userProf["uProfImgUrl"] as! String)
+                
+//                let imgURL = URL(string: userProf["profileImg"] as! String)
+//                self.profImage.kf.setImage(with: imgURL)
+//                self.name.text! = userProf["name"] as! String
+//                self.age.text! = String(userProf["age"] as! Int)
+//                self.bDate.text! = userProf["birthDate"] as! String
+//                self.phone.text! = String(userProf["phoneNumber"] as! Int)
+//
+                
+                print("")
+            }
+        }, withCancel: nil)
+    }
+    //End of getting user data
 
     /*
     // MARK: - Navigation

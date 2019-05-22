@@ -22,6 +22,8 @@
 		FBBCD14C2293BD5000B9CD1D /* AppTempData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBCD14B2293BD5000B9CD1D /* AppTempData.swift */; };
 		FBECCB4722952281001ADF27 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBECCB4622952281001ADF27 /* SignUpViewController.swift */; };
 		FBECCB4922954C28001ADF27 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBECCB4822954C28001ADF27 /* User.swift */; };
+		FBECCB4B2295CFD5001ADF27 /* MyProfile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBECCB4A2295CFD5001ADF27 /* MyProfile.storyboard */; };
+		FBECCB4E2295D5B2001ADF27 /* MyProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBECCB4D2295D5B2001ADF27 /* MyProfileViewController.swift */; };
 		FBF1B2C62291DA5E0090E0CE /* showFriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF1B2C52291DA5E0090E0CE /* showFriendsViewController.swift */; };
 		FBF6A1C8228C988800862F83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF6A1C7228C988800862F83 /* AppDelegate.swift */; };
 		FBF6A1CA228C988800862F83 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF6A1C9228C988800862F83 /* ViewController.swift */; };
@@ -72,6 +74,8 @@
 		FBBCD14B2293BD5000B9CD1D /* AppTempData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTempData.swift; sourceTree = "<group>"; };
 		FBECCB4622952281001ADF27 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		FBECCB4822954C28001ADF27 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		FBECCB4A2295CFD5001ADF27 /* MyProfile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyProfile.storyboard; sourceTree = "<group>"; };
+		FBECCB4D2295D5B2001ADF27 /* MyProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileViewController.swift; sourceTree = "<group>"; };
 		FBF1B2C52291DA5E0090E0CE /* showFriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = showFriendsViewController.swift; sourceTree = "<group>"; };
 		FBF6A1C4228C988800862F83 /* Ravinsu M.H.S - COBSCComp171P-001.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ravinsu M.H.S - COBSCComp171P-001.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBF6A1C7228C988800862F83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -161,6 +165,7 @@
 		FB9431F6228D242C007BE79D /* controllers */ = {
 			isa = PBXGroup;
 			children = (
+				FBECCB4C2295D594001ADF27 /* User */,
 				FBECCB45229521EC001ADF27 /* Login */,
 				FBECCB44229521E1001ADF27 /* Home */,
 				FBECCB43229521D5001ADF27 /* Main */,
@@ -175,6 +180,7 @@
 				FBF6A1CB228C988800862F83 /* Main.storyboard */,
 				FB9431FD228D35B2007BE79D /* Home.storyboard */,
 				FB9431FF228D365A007BE79D /* Login.storyboard */,
+				FBECCB4A2295CFD5001ADF27 /* MyProfile.storyboard */,
 			);
 			path = soryboads;
 			sourceTree = "<group>";
@@ -213,6 +219,14 @@
 				FBECCB4622952281001ADF27 /* SignUpViewController.swift */,
 			);
 			path = Login;
+			sourceTree = "<group>";
+		};
+		FBECCB4C2295D594001ADF27 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				FBECCB4D2295D5B2001ADF27 /* MyProfileViewController.swift */,
+			);
+			path = User;
 			sourceTree = "<group>";
 		};
 		FBF6A1BB228C988800862F83 = {
@@ -382,6 +396,7 @@
 			files = (
 				FBF6A1D2228C988900862F83 /* LaunchScreen.storyboard in Resources */,
 				FB9431FA228D2718007BE79D /* logo.png in Resources */,
+				FBECCB4B2295CFD5001ADF27 /* MyProfile.storyboard in Resources */,
 				FB943200228D365A007BE79D /* Login.storyboard in Resources */,
 				FBF6A1F6228C9D2900862F83 /* GoogleService-Info.plist in Resources */,
 				FB9431FE228D35B3007BE79D /* Home.storyboard in Resources */,
@@ -550,6 +565,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBECCB4E2295D5B2001ADF27 /* MyProfileViewController.swift in Sources */,
 				FBECCB4722952281001ADF27 /* SignUpViewController.swift in Sources */,
 				FBECCB4922954C28001ADF27 /* User.swift in Sources */,
 				FB943204228D6948007BE79D /* AddStudentViewController.swift in Sources */,

@@ -31,4 +31,17 @@ class User{
         self.uPassword = uPassword
         
     }
+    
+    init(uName: String, uBod: String, uAge:Int!, uPhone: Int!, uProfImgUrl: String){
+        
+        // self.id = id
+        self.uName = uName
+        self.uBod = uBod
+        self.uAge = uAge
+        self.uPhone = uPhone
+        self.uProfImgUrl = uProfImgUrl
+        self.uEmail = ""
+        self.uPassword = ""
+        
+    }
 }
