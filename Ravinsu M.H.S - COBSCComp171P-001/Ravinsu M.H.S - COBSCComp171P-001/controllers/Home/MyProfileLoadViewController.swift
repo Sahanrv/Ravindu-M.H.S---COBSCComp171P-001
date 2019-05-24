@@ -55,7 +55,7 @@ class MyProfileLoadViewController: UIViewController {
             // Biometric Authentication success
             //self.showSuccessAlert()
              self.performSegue(withIdentifier: "myprofile", sender: nil)
-            self.showSuccessAlert()
+             self.showSuccessAlert()
 
             
         }) { (error) in
@@ -73,8 +73,8 @@ class MyProfileLoadViewController: UIViewController {
     func executePasscodeAuthentication()
     {
         TJBioAuthenticator.shared.authenticateUserWithPasscode(success: {
-            //self.showSuccessAlert()
-             self.performSegue(withIdentifier: "myprofile", sender: nil)
+            self.showSuccessAlert()
+             //self.performSegue(withIdentifier: "myprofile", sender: nil)
             
         }) { (error) in
             self.presentAlert(withTitle: "Error", message: error.getMessage())
@@ -115,11 +115,11 @@ extension MyProfileLoadViewController
             self.presentAlert(withTitle: "Success", message: "Login successful")
              self.performSegue(withIdentifier: "myprofile", sender: nil)
         }
-        
+
     }
 }
 extension MyProfileLoadViewController {
-    
+
     func presentAlert(withTitle title: String, message : String) {
         let alertController = UIAlertController(title: title, message: message, preferredStyle: .alert)
         let OKAction = UIAlertAction(title: "OK", style: .default) { action in
