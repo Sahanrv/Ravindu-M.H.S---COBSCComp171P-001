@@ -6,7 +6,7 @@ target 'Ravinsu M.H.S - COBSCComp171P-001' do
   use_frameworks!
 
   # Pods for Ravinsu M.H.S - COBSCComp171P-001
-
+  
   target 'Ravinsu M.H.S - COBSCComp171P-001Tests' do
     inherit! :search_paths
     # Pods for testing
@@ -30,5 +30,9 @@ target 'Ravinsu M.H.S - COBSCComp171P-001' do
   pod 'IQKeyboardManagerSwift'
   pod 'SwiftyPickerPopover'
   pod 'DatePicker', '1.0.0'
+	pod 'BiometricAuthentication'
+  pod 'TJBioAuthentication'
+  
+ 
 
 end

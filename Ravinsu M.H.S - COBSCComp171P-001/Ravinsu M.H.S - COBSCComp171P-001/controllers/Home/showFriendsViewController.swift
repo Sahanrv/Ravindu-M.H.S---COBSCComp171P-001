@@ -12,12 +12,21 @@ import Kingfisher
 class showFriendsViewController: UIViewController {
 
     @IBOutlet weak var studentImg: UIImageView!
-    @IBOutlet weak var studentName: UILabel!
+    @IBOutlet weak var studenfName: UILabel!
     var studentInfo : Student!
-    
+    @IBOutlet weak var studentlName: UILabel!
+    @IBOutlet weak var studentPhoneNumber: UILabel!
+    @IBOutlet weak var studentFbProfile: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-        studentName.text = studentInfo.fName + " " + studentInfo.lName
+        
+        
+        
+        
+        self.studenfName.text! = studentInfo.fName
+        self.studentlName.text! = studentInfo.lName
+        self.studentPhoneNumber.text! = String(studentInfo.phoneNumber!)
+        self.studentFbProfile.text! = studentInfo.fbUrl
         let url = URL(string: studentInfo.profUrl)
         studentImg.kf.setImage(with: url)
         // Do any additional setup after loading the view.

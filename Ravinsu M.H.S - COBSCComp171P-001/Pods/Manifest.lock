@@ -1,5 +1,6 @@
 PODS:
   - Alamofire (4.8.1)
+  - BiometricAuthentication (2.2)
   - DatePicker (1.0.0):
     - Extended (~> 1.0.4)
   - Extended (1.0.5)
@@ -109,9 +110,11 @@ PODS:
   - nanopb/encode (0.3.901)
   - SwiftyJSON (4.2.0)
   - SwiftyPickerPopover (6.6.5)
+  - TJBioAuthentication (1.2.0)
 
 DEPENDENCIES:
   - Alamofire (~> 4.4)
+  - BiometricAuthentication
   - DatePicker (= 1.0.0)
   - Firebase/Analytics
   - Firebase/Auth
@@ -124,10 +127,12 @@ DEPENDENCIES:
   - MaterialComponents/TextFields
   - SwiftyJSON
   - SwiftyPickerPopover
+  - TJBioAuthentication
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Alamofire
+    - BiometricAuthentication
     - DatePicker
     - Extended
     - Firebase
@@ -151,9 +156,11 @@ SPEC REPOS:
     - nanopb
     - SwiftyJSON
     - SwiftyPickerPopover
+    - TJBioAuthentication
 
 SPEC CHECKSUMS:
   Alamofire: 16ce2c353fb72865124ddae8a57c5942388f4f11
+  BiometricAuthentication: 9eeaae9cda890d95bc1fc41e72285e68cb6bc8b0
   DatePicker: 7eb10cf9d75d2ff975e3724763d4df8f2cf96ce1
   Extended: c463225e0c29b2823847866c1b106827772ac678
   Firebase: 02f3281965c075426141a0ce1277e9de6649cab9
@@ -177,7 +184,8 @@ SPEC CHECKSUMS:
   nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
   SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
   SwiftyPickerPopover: f2975fd0233d04c0a8f8d52d09b6f24b882de6fb
+  TJBioAuthentication: 9833a046cf8d2b1379af3fcd9c098e1a4150fe6e
 
-PODFILE CHECKSUM: d1d52e45d4182a79e9ee7172aa5634cf4876a7cc
+PODFILE CHECKSUM: 7b4655e86eaac55c3f977307d90c988690e3067e
 
 COCOAPODS: 1.6.1

@@ -11,6 +11,8 @@ import Firebase
 import FirebaseAuth
 import GoogleSignIn
 import IQKeyboardManagerSwift
+//import TJBioAuthentication
+
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {

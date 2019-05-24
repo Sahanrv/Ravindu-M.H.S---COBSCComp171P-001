@@ -14,6 +14,9 @@ class tableTableViewCell: UITableViewCell {
     @IBOutlet weak var studentName: UILabel!
     @IBOutlet weak var city: UILabel!
     
+    var phoneNumber: Int = 0
+    var fbProfile: String = ""
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         

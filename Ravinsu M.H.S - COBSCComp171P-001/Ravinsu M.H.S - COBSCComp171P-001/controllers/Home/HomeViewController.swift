@@ -55,7 +55,7 @@ class HomeViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
             // Get user value
             let value = snapshot.value as? NSDictionary
             //let singersList = value!
-           // print(value!)
+           print(snapshot.children)
             var newstudent: [Student] = []
             
             if snapshot.childrenCount > 0 {
@@ -91,6 +91,8 @@ class HomeViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
         cell.profileImg.kf.setImage(with: url)
         cell.studentName.text =  self.studentData[indexPath.row].fName + " " + self.studentData[indexPath.row].lName
         cell.city.text = self.studentData[indexPath.row].city
+        cell.phoneNumber = self.studentData[indexPath.row].phoneNumber
+        cell.fbProfile = self.studentData[indexPath.row].fbUrl
         
         
         return cell
@@ -110,6 +112,7 @@ class HomeViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
         self.performSegue(withIdentifier: "showstudent", sender: indexPath.row)
         tableView.deselectRow(at: indexPath, animated: true)
     }
@@ -132,36 +135,7 @@ class HomeViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
     //End of log out btn
     
     
-    //Get user data
-    func getViewUserData(){
-        
-        let userID = Auth.auth().currentUser?.uid
-        
-        Database.database().reference().child("users/user/").child(userID!).observeSingleEvent(of: .value, with: {(DataSnapshot) in
-            
-            if let userProf = DataSnapshot.value as? [String : AnyObject]{
-                
-                _ = User(
-                    uName: userProf["uName"] as! String,
-                    uBod: userProf["uBod"] as! String,
-                    uAge: userProf["uAge"] as? Int,
-                    uPhone: userProf["uPhone"] as? Int,
-                    uProfImgUrl: userProf["uProfImgUrl"] as! String)
-                
-//                let imgURL = URL(string: userProf["profileImg"] as! String)
-//                self.profImage.kf.setImage(with: imgURL)
-//                self.name.text! = userProf["name"] as! String
-//                self.age.text! = String(userProf["age"] as! Int)
-//                self.bDate.text! = userProf["birthDate"] as! String
-//                self.phone.text! = String(userProf["phoneNumber"] as! Int)
-//
-                
-                print("")
-            }
-        }, withCancel: nil)
-    }
-    //End of getting user data
-
+    
     /*
     // MARK: - Navigation
 
