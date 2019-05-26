@@ -191,7 +191,7 @@
                                         <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="O9K-vZ-qS0">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="user" translatesAutoresizingMaskIntoConstraints="NO" id="O9K-vZ-qS0">
                                         <rect key="frame" x="128" y="100" width="120" height="120"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="120" id="BF1-QX-WlO"/>
@@ -271,7 +271,7 @@
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ejL-n3-dzq">
                                         <rect key="frame" x="224" y="563" width="131" height="39"/>
-                                        <color key="backgroundColor" red="0.018570512840000001" green="0.49123572339999999" blue="0.15185620899999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="131" id="UPZ-qE-udV"/>
                                             <constraint firstAttribute="height" constant="39" id="W1Y-OP-g6R"/>
@@ -286,7 +286,7 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EEe-bT-49Q">
                                         <rect key="frame" x="22" y="563" width="131" height="39"/>
-                                        <color key="backgroundColor" red="0.58072251080000004" green="0.066734083" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="39" id="eZo-Ay-bj2"/>
                                             <constraint firstAttribute="width" constant="131" id="iUO-Lt-R7Y"/>
@@ -533,4 +533,7 @@
             <point key="canvasLocation" x="232.80000000000001" y="139.880059970015"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="user" width="409.60000610351562" height="409.60000610351562"/>
+    </resources>
 </document>

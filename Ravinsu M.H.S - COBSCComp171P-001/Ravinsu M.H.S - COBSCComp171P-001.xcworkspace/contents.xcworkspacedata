@@ -5,6 +5,9 @@
       location = "group:Ravinsu M.H.S - COBSCComp171P-001.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:Assets.xcassets">
+   </FileRef>
+   <FileRef
       location = "group:Pods/Pods.xcodeproj">
    </FileRef>
 </Workspace>

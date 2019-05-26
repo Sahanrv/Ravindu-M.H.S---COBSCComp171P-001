@@ -21,7 +21,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2PJ-B2-QyK">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="pRJ-rw-6GZ">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="pRJ-rw-6GZ">
                                         <rect key="frame" x="67" y="213.5" width="240" height="240"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="240" id="EK1-GT-stz"/>
@@ -29,7 +29,7 @@
                                         </constraints>
                                     </imageView>
                                 </subviews>
-                                <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstItem="pRJ-rw-6GZ" firstAttribute="top" secondItem="2PJ-B2-QyK" secondAttribute="top" constant="213.5" id="1b2-hv-jp8"/>
                                     <constraint firstAttribute="trailing" secondItem="pRJ-rw-6GZ" secondAttribute="trailing" constant="68" id="3Wf-bf-99q"/>
@@ -46,9 +46,6 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <connections>
-                        <outlet property="imgView" destination="pRJ-rw-6GZ" id="KUF-qG-StX"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -56,6 +53,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="logo.png" width="220" height="126"/>
+        <image name="logo" width="220" height="126"/>
     </resources>
 </document>

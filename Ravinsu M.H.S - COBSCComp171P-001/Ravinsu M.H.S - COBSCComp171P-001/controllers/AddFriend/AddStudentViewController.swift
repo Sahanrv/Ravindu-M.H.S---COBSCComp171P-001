@@ -54,15 +54,15 @@ class AddStudentViewController: UIViewController {
         
         //btn Save
         btnSave.layer.borderWidth = 1.0
-        btnSave.layer.borderColor = UIColor.white.cgColor
+        btnSave.layer.borderColor = UIColor.green.cgColor
         btnSave.layer.cornerRadius = self.btnSave.bounds.height / 2
         //end btn Save
         
-        //btn Clear
-        btnClear.layer.borderWidth = 1.0
-        btnClear.layer.borderColor = UIColor.white.cgColor
-        btnClear.layer.cornerRadius = self.btnClear.bounds.height / 2
-        //end btn Clear
+//        //btn Clear
+//        btnClear.layer.borderWidth = 1.0
+//        btnClear.layer.borderColor = UIColor.white.cgColor
+//        btnClear.layer.cornerRadius = self.btnClear.bounds.height / 2
+//        //end btn Clear
     
         //Add image picker
         imagePicker = UIImagePickerController()
@@ -220,6 +220,13 @@ class AddStudentViewController: UIViewController {
         
     }
     //End Save Data
+    
+    //Back
+    
+    @IBAction func back(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
+    }
+    //End back
     
 
     /*

@@ -25,6 +25,16 @@ class MyProfileLoadViewController: UIViewController {
          LoadUser()
         self.hideKeyboard()
         
+        //img picker settings
+        self.profileImage.layer.cornerRadius = self.profileImage.bounds.height / 2
+        self.profileImage.clipsToBounds = true
+        //ens image picker settings
+        
+        //More in btn properties
+        modeDetailsButton.layer.borderWidth = 1.0
+        modeDetailsButton.layer.borderColor = UIColor.green.cgColor
+        modeDetailsButton.layer.cornerRadius = self.modeDetailsButton.bounds.height / 2
+        //End of more button
         // Do any additional setup after loading the view.
     }
     

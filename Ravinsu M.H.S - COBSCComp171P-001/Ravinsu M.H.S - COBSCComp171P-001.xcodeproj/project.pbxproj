@@ -21,10 +21,11 @@
 		FB9040612297A39B006A1DFC /* HomeworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9040602297A39B006A1DFC /* HomeworkViewController.swift */; };
 		FB9040632297A540006A1DFC /* AddNewFriend.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB9040622297A540006A1DFC /* AddNewFriend.storyboard */; };
 		FB9040692297C4E6006A1DFC /* TouchIDAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9040682297C4E6006A1DFC /* TouchIDAuthentication.swift */; };
-		FB9431FA228D2718007BE79D /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = FB9431F9228D2718007BE79D /* logo.png */; };
 		FB9431FE228D35B3007BE79D /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB9431FD228D35B2007BE79D /* Home.storyboard */; };
 		FB943200228D365A007BE79D /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB9431FF228D365A007BE79D /* Login.storyboard */; };
 		FB943204228D6948007BE79D /* AddStudentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB943203228D6948007BE79D /* AddStudentViewController.swift */; };
+		FBB9DF89229A30EB00A55193 /* AddhomeworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB9DF88229A30EB00A55193 /* AddhomeworkViewController.swift */; };
+		FBB9DF8B229A400400A55193 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBB9DF8A229A400300A55193 /* Assets.xcassets */; };
 		FBBCD14A2293B21000B9CD1D /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBCD1492293B21000B9CD1D /* LogInViewController.swift */; };
 		FBBCD14C2293BD5000B9CD1D /* AppTempData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBCD14B2293BD5000B9CD1D /* AppTempData.swift */; };
 		FBEC4B2C2297C94700938E66 /* Extensions in Resources */ = {isa = PBXBuildFile; fileRef = FBEC4B2A2297C94600938E66 /* Extensions */; };
@@ -37,11 +38,11 @@
 		FBF6A1C8228C988800862F83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF6A1C7228C988800862F83 /* AppDelegate.swift */; };
 		FBF6A1CA228C988800862F83 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF6A1C9228C988800862F83 /* ViewController.swift */; };
 		FBF6A1CD228C988800862F83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBF6A1CB228C988800862F83 /* Main.storyboard */; };
-		FBF6A1CF228C988900862F83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBF6A1CE228C988900862F83 /* Assets.xcassets */; };
 		FBF6A1D2228C988900862F83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBF6A1D0228C988900862F83 /* LaunchScreen.storyboard */; };
 		FBF6A1DD228C988900862F83 /* Ravinsu_M_H_S___COBSCComp171P_001Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF6A1DC228C988900862F83 /* Ravinsu_M_H_S___COBSCComp171P_001Tests.swift */; };
 		FBF6A1E8228C988900862F83 /* Ravinsu_M_H_S___COBSCComp171P_001UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF6A1E7228C988900862F83 /* Ravinsu_M_H_S___COBSCComp171P_001UITests.swift */; };
 		FBF6A1F6228C9D2900862F83 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FBF6A1F5228C9D2900862F83 /* GoogleService-Info.plist */; };
+		FBF8AF48229947C700844877 /* HomeWork.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF8AF47229947C700844877 /* HomeWork.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,10 +83,11 @@
 		FB9040602297A39B006A1DFC /* HomeworkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeworkViewController.swift; sourceTree = "<group>"; };
 		FB9040622297A540006A1DFC /* AddNewFriend.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AddNewFriend.storyboard; sourceTree = "<group>"; };
 		FB9040682297C4E6006A1DFC /* TouchIDAuthentication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TouchIDAuthentication.swift; path = ../../../TouchIDAuthentication.swift; sourceTree = "<group>"; };
-		FB9431F9228D2718007BE79D /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		FB9431FD228D35B2007BE79D /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		FB9431FF228D365A007BE79D /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		FB943203228D6948007BE79D /* AddStudentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStudentViewController.swift; sourceTree = "<group>"; };
+		FBB9DF88229A30EB00A55193 /* AddhomeworkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddhomeworkViewController.swift; sourceTree = "<group>"; };
+		FBB9DF8A229A400300A55193 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FBBCD1492293B21000B9CD1D /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		FBBCD14B2293BD5000B9CD1D /* AppTempData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTempData.swift; sourceTree = "<group>"; };
 		FBEC4B2A2297C94600938E66 /* Extensions */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Extensions; path = "../../../../Downloads/TJBioAuthentication-master/TJBioAuthentication/TJBioAuthentication/Extensions"; sourceTree = "<group>"; };
@@ -99,7 +101,6 @@
 		FBF6A1C7228C988800862F83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FBF6A1C9228C988800862F83 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FBF6A1CC228C988800862F83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FBF6A1CE228C988900862F83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FBF6A1D1228C988900862F83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FBF6A1D3228C988900862F83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FBF6A1D8228C988900862F83 /* Ravinsu M.H.S - COBSCComp171P-001Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ravinsu M.H.S - COBSCComp171P-001Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -109,6 +110,7 @@
 		FBF6A1E7228C988900862F83 /* Ravinsu_M_H_S___COBSCComp171P_001UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ravinsu_M_H_S___COBSCComp171P_001UITests.swift"; sourceTree = "<group>"; };
 		FBF6A1E9228C988900862F83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FBF6A1F5228C9D2900862F83 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FBF8AF47229947C700844877 /* HomeWork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWork.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -194,6 +196,7 @@
 				FBBCD14B2293BD5000B9CD1D /* AppTempData.swift */,
 				FB0A719C228F8A50008437C3 /* Student.swift */,
 				FBECCB4822954C28001ADF27 /* User.swift */,
+				FBF8AF47229947C700844877 /* HomeWork.swift */,
 			);
 			path = models;
 			sourceTree = "<group>";
@@ -201,6 +204,7 @@
 		FB9431F6228D242C007BE79D /* controllers */ = {
 			isa = PBXGroup;
 			children = (
+				FBB9DF87229A2FD300A55193 /* Homework */,
 				FB9040652297A95B006A1DFC /* AddFriend */,
 				FBECCB43229521D5001ADF27 /* Main */,
 				FBECCB4C2295D594001ADF27 /* User */,
@@ -223,12 +227,13 @@
 			path = soryboads;
 			sourceTree = "<group>";
 		};
-		FB9431F8228D2671007BE79D /* img */ = {
+		FBB9DF87229A2FD300A55193 /* Homework */ = {
 			isa = PBXGroup;
 			children = (
-				FB9431F9228D2718007BE79D /* logo.png */,
+				FB9040602297A39B006A1DFC /* HomeworkViewController.swift */,
+				FBB9DF88229A30EB00A55193 /* AddhomeworkViewController.swift */,
 			);
-			path = img;
+			path = Homework;
 			sourceTree = "<group>";
 		};
 		FBECCB43229521D5001ADF27 /* Main */ = {
@@ -242,7 +247,6 @@
 		FBECCB44229521E1001ADF27 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				FB9040602297A39B006A1DFC /* HomeworkViewController.swift */,
 				FB0A71A0228FC66B008437C3 /* HomeViewController.swift */,
 				FBF1B2C52291DA5E0090E0CE /* showFriendsViewController.swift */,
 				FB90405E2297A381006A1DFC /* MyProfileLoadViewController.swift */,
@@ -271,6 +275,7 @@
 		FBF6A1BB228C988800862F83 = {
 			isa = PBXGroup;
 			children = (
+				FBB9DF8A229A400300A55193 /* Assets.xcassets */,
 				FBF6A1C6228C988800862F83 /* Ravinsu M.H.S - COBSCComp171P-001 */,
 				FBF6A1DB228C988900862F83 /* Ravinsu M.H.S - COBSCComp171P-001Tests */,
 				FBF6A1E6228C988900862F83 /* Ravinsu M.H.S - COBSCComp171P-001UITests */,
@@ -300,12 +305,10 @@
 				FBF6A1C7228C988800862F83 /* AppDelegate.swift */,
 				FBEC4B2B2297C94600938E66 /* BioAuth */,
 				FBEC4B2A2297C94600938E66 /* Extensions */,
-				FB9431F8228D2671007BE79D /* img */,
 				FB9431F7228D2437007BE79D /* soryboads */,
 				FB9431F6228D242C007BE79D /* controllers */,
 				FB9431F5228D2414007BE79D /* models */,
 				FB9431F4228D2409007BE79D /* views */,
-				FBF6A1CE228C988900862F83 /* Assets.xcassets */,
 			);
 			path = "Ravinsu M.H.S - COBSCComp171P-001";
 			sourceTree = "<group>";
@@ -439,14 +442,13 @@
 			files = (
 				FBEC4B2C2297C94700938E66 /* Extensions in Resources */,
 				FBF6A1D2228C988900862F83 /* LaunchScreen.storyboard in Resources */,
+				FBB9DF8B229A400400A55193 /* Assets.xcassets in Resources */,
 				FB9040632297A540006A1DFC /* AddNewFriend.storyboard in Resources */,
-				FB9431FA228D2718007BE79D /* logo.png in Resources */,
 				FBECCB4B2295CFD5001ADF27 /* MyProfile.storyboard in Resources */,
 				FB943200228D365A007BE79D /* Login.storyboard in Resources */,
 				FBF6A1F6228C9D2900862F83 /* GoogleService-Info.plist in Resources */,
 				FB9431FE228D35B3007BE79D /* Home.storyboard in Resources */,
 				FBEC4B2D2297C94700938E66 /* BioAuth in Resources */,
-				FBF6A1CF228C988900862F83 /* Assets.xcassets in Resources */,
 				FBF6A1CD228C988800862F83 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -628,7 +630,9 @@
 				FB9040612297A39B006A1DFC /* HomeworkViewController.swift in Sources */,
 				FB6384382297CF5100CE6B55 /* TJDefaultMessages.swift in Sources */,
 				FB0A719D228F8A50008437C3 /* Student.swift in Sources */,
+				FBF8AF48229947C700844877 /* HomeWork.swift in Sources */,
 				FB6384362297CF5100CE6B55 /* TJAuthErrors.swift in Sources */,
+				FBB9DF89229A30EB00A55193 /* AddhomeworkViewController.swift in Sources */,
 				FB0A719F228FC5AD008437C3 /* tableTableViewCell.swift in Sources */,
 				FBF1B2C62291DA5E0090E0CE /* showFriendsViewController.swift in Sources */,
 				FBBCD14C2293BD5000B9CD1D /* AppTempData.swift in Sources */,

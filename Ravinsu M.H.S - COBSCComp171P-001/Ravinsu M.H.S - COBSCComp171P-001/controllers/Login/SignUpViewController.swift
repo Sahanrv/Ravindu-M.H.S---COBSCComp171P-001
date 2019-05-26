@@ -65,13 +65,13 @@ class SignUpViewController: UIViewController {
 
         //Savein btn properties
         saveBtn.layer.borderWidth = 1.0
-        saveBtn.layer.borderColor = UIColor.white.cgColor
+        saveBtn.layer.borderColor = UIColor.green.cgColor
         saveBtn.layer.cornerRadius = self.saveBtn.bounds.height / 2
         //End of save button
         
         //cancelbtn btn properties
         cancelbtn.layer.borderWidth = 1.0
-        cancelbtn.layer.borderColor = UIColor.white.cgColor
+        cancelbtn.layer.borderColor = UIColor.red.cgColor
         cancelbtn.layer.cornerRadius = self.cancelbtn.bounds.height / 2
         //End of cancelbtn button
         
