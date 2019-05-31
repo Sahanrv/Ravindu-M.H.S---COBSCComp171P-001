@@ -1,2 +1,5 @@
-# Ravindu-M.H.S---COBSCComp171P-001
-NIB301CEM (IOS Developing Final Individual Project)
+# Name: Ravindu M.H.S
+# ID(Coventry): 8511304
+# ID(NIBM): COBSCComp171P-001
+
+
