@@ -28,6 +28,15 @@
 		FBB9DF8B229A400400A55193 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBB9DF8A229A400300A55193 /* Assets.xcassets */; };
 		FBBCD14A2293B21000B9CD1D /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBCD1492293B21000B9CD1D /* LogInViewController.swift */; };
 		FBBCD14C2293BD5000B9CD1D /* AppTempData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBCD14B2293BD5000B9CD1D /* AppTempData.swift */; };
+		FBE239A522A63465006E65BF /* TJBioAuthenticator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE239A222A63464006E65BF /* TJBioAuthenticator.swift */; };
+		FBE239A622A63465006E65BF /* TJBioAuthenticator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE239A222A63464006E65BF /* TJBioAuthenticator.swift */; };
+		FBE239A722A63465006E65BF /* TJBioAuthenticator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE239A222A63464006E65BF /* TJBioAuthenticator.swift */; };
+		FBE239A822A63465006E65BF /* TJDefaultMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE239A322A63464006E65BF /* TJDefaultMessages.swift */; };
+		FBE239A922A63465006E65BF /* TJDefaultMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE239A322A63464006E65BF /* TJDefaultMessages.swift */; };
+		FBE239AA22A63465006E65BF /* TJDefaultMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE239A322A63464006E65BF /* TJDefaultMessages.swift */; };
+		FBE239AB22A63465006E65BF /* TJAuthErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE239A422A63464006E65BF /* TJAuthErrors.swift */; };
+		FBE239AC22A63465006E65BF /* TJAuthErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE239A422A63464006E65BF /* TJAuthErrors.swift */; };
+		FBE239AD22A63465006E65BF /* TJAuthErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE239A422A63464006E65BF /* TJAuthErrors.swift */; };
 		FBEC4B2C2297C94700938E66 /* Extensions in Resources */ = {isa = PBXBuildFile; fileRef = FBEC4B2A2297C94600938E66 /* Extensions */; };
 		FBEC4B2D2297C94700938E66 /* BioAuth in Resources */ = {isa = PBXBuildFile; fileRef = FBEC4B2B2297C94600938E66 /* BioAuth */; };
 		FBECCB4722952281001ADF27 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBECCB4622952281001ADF27 /* SignUpViewController.swift */; };
@@ -90,6 +99,9 @@
 		FBB9DF8A229A400300A55193 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FBBCD1492293B21000B9CD1D /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		FBBCD14B2293BD5000B9CD1D /* AppTempData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTempData.swift; sourceTree = "<group>"; };
+		FBE239A222A63464006E65BF /* TJBioAuthenticator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TJBioAuthenticator.swift; sourceTree = "<group>"; };
+		FBE239A322A63464006E65BF /* TJDefaultMessages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TJDefaultMessages.swift; sourceTree = "<group>"; };
+		FBE239A422A63464006E65BF /* TJAuthErrors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TJAuthErrors.swift; sourceTree = "<group>"; };
 		FBEC4B2A2297C94600938E66 /* Extensions */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Extensions; path = "../../../../Downloads/TJBioAuthentication-master/TJBioAuthentication/TJBioAuthentication/Extensions"; sourceTree = "<group>"; };
 		FBEC4B2B2297C94600938E66 /* BioAuth */ = {isa = PBXFileReference; lastKnownFileType = folder; name = BioAuth; path = "../../../../Downloads/TJBioAuthentication-master/TJBioAuthentication/TJBioAuthentication/BioAuth"; sourceTree = "<group>"; };
 		FBECCB4622952281001ADF27 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
@@ -298,6 +310,9 @@
 		FBF6A1C6228C988800862F83 /* Ravinsu M.H.S - COBSCComp171P-001 */ = {
 			isa = PBXGroup;
 			children = (
+				FBE239A422A63464006E65BF /* TJAuthErrors.swift */,
+				FBE239A222A63464006E65BF /* TJBioAuthenticator.swift */,
+				FBE239A322A63464006E65BF /* TJDefaultMessages.swift */,
 				FB63843D2297CF8400CE6B55 /* BioAuth */,
 				FB9040682297C4E6006A1DFC /* TouchIDAuthentication.swift */,
 				FBF6A1D3228C988900862F83 /* Info.plist */,
@@ -617,7 +632,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBE239A522A63465006E65BF /* TJBioAuthenticator.swift in Sources */,
 				FBECCB4E2295D5B2001ADF27 /* MyProfileViewController.swift in Sources */,
+				FBE239AB22A63465006E65BF /* TJAuthErrors.swift in Sources */,
 				FBECCB4722952281001ADF27 /* SignUpViewController.swift in Sources */,
 				FBECCB4922954C28001ADF27 /* User.swift in Sources */,
 				FB943204228D6948007BE79D /* AddStudentViewController.swift in Sources */,
@@ -636,6 +653,7 @@
 				FB0A719F228FC5AD008437C3 /* tableTableViewCell.swift in Sources */,
 				FBF1B2C62291DA5E0090E0CE /* showFriendsViewController.swift in Sources */,
 				FBBCD14C2293BD5000B9CD1D /* AppTempData.swift in Sources */,
+				FBE239A822A63465006E65BF /* TJDefaultMessages.swift in Sources */,
 				FB0A71A1228FC66B008437C3 /* HomeViewController.swift in Sources */,
 				FBF6A1C8228C988800862F83 /* AppDelegate.swift in Sources */,
 			);
@@ -645,6 +663,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBE239A622A63465006E65BF /* TJBioAuthenticator.swift in Sources */,
+				FBE239A922A63465006E65BF /* TJDefaultMessages.swift in Sources */,
+				FBE239AC22A63465006E65BF /* TJAuthErrors.swift in Sources */,
 				FBF6A1DD228C988900862F83 /* Ravinsu_M_H_S___COBSCComp171P_001Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -653,6 +674,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBE239A722A63465006E65BF /* TJBioAuthenticator.swift in Sources */,
+				FBE239AA22A63465006E65BF /* TJDefaultMessages.swift in Sources */,
+				FBE239AD22A63465006E65BF /* TJAuthErrors.swift in Sources */,
 				FBF6A1E8228C988900862F83 /* Ravinsu_M_H_S___COBSCComp171P_001UITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
