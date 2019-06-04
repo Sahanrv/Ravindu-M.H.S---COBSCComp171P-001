@@ -41,19 +41,19 @@ class MyProfileLoadViewController: UIViewController {
     //Load user data
     func LoadUser(){
         let userID = Auth.auth().currentUser?.uid
-        
+       
         Database.database().reference().child("user/profile/").child(userID!).observeSingleEvent(of: .value, with: {(DataSnapshot) in
             
             print(DataSnapshot)
             if let userProf = DataSnapshot.value as? [String : AnyObject]{
-                
+               
                 let imgURL = URL(string: userProf["uProfileImage"] as! String)
                 self.profileImage.kf.setImage(with: imgURL)
                 self.fullName.text! = userProf["uName"] as! String
                 
             }
         }, withCancel: nil)
-        
+       
     }
     //End of load userdata
     

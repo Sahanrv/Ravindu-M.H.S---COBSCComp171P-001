@@ -58,13 +58,13 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y1m-ST-dZV">
-                                        <rect key="frame" x="22" y="118" width="143" height="34"/>
+                                        <rect key="frame" x="22" y="118" width="182" height="34"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="143" id="jWp-iy-Iv8"/>
-                                            <constraint firstAttribute="height" constant="34" id="ubS-57-NFQ"/>
+                                            <constraint firstAttribute="width" constant="182" id="P68-UI-Pse"/>
+                                            <constraint firstAttribute="height" constant="34" id="cei-6S-csM"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                        <state key="normal" title="Foget password ?">
+                                        <state key="normal" title="Forgot password ?">
                                             <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <connections>
@@ -122,17 +122,15 @@
                                     <constraint firstItem="NKc-Xm-TFg" firstAttribute="top" secondItem="o1e-Wn-rOE" secondAttribute="top" constant="204" id="172-Q9-O0e"/>
                                     <constraint firstItem="Iqi-Uq-WEY" firstAttribute="leading" secondItem="o1e-Wn-rOE" secondAttribute="leading" constant="22" id="4ql-Vw-cih"/>
                                     <constraint firstItem="59R-L3-eiV" firstAttribute="leading" secondItem="o1e-Wn-rOE" secondAttribute="leading" constant="22" id="58k-fN-EJ6"/>
-                                    <constraint firstItem="Y1m-ST-dZV" firstAttribute="top" secondItem="o1e-Wn-rOE" secondAttribute="top" constant="118" id="5JT-1c-RK1"/>
                                     <constraint firstItem="deI-HV-QKf" firstAttribute="leading" secondItem="o1e-Wn-rOE" secondAttribute="leading" constant="22" id="7Pc-Xr-3sS"/>
                                     <constraint firstAttribute="trailing" secondItem="REs-sn-ebe" secondAttribute="trailing" constant="18" id="9eK-Rt-DBd"/>
                                     <constraint firstItem="59R-L3-eiV" firstAttribute="top" secondItem="o1e-Wn-rOE" secondAttribute="top" constant="303" id="A8I-ZP-lpM"/>
                                     <constraint firstAttribute="trailing" secondItem="NKc-Xm-TFg" secondAttribute="trailing" constant="94" id="AjF-RT-4cn"/>
                                     <constraint firstItem="deI-HV-QKf" firstAttribute="top" secondItem="o1e-Wn-rOE" secondAttribute="top" constant="156" id="Hjh-Ua-JqV"/>
-                                    <constraint firstItem="Y1m-ST-dZV" firstAttribute="leading" secondItem="o1e-Wn-rOE" secondAttribute="leading" constant="22" id="IVe-gZ-1DV"/>
                                     <constraint firstItem="Iqi-Uq-WEY" firstAttribute="top" secondItem="o1e-Wn-rOE" secondAttribute="top" constant="28" id="Ieh-bq-JZi"/>
                                     <constraint firstItem="S9e-cx-kRg" firstAttribute="top" secondItem="o1e-Wn-rOE" secondAttribute="top" constant="262" id="JTC-Vp-M4j"/>
-                                    <constraint firstAttribute="trailing" secondItem="Y1m-ST-dZV" secondAttribute="trailing" constant="210" id="NyA-rj-UeA"/>
                                     <constraint firstItem="REs-sn-ebe" firstAttribute="leading" secondItem="o1e-Wn-rOE" secondAttribute="leading" constant="22" id="Ple-fK-qg3"/>
+                                    <constraint firstItem="Y1m-ST-dZV" firstAttribute="top" secondItem="o1e-Wn-rOE" secondAttribute="top" constant="118" id="Wzo-V6-KJK"/>
                                     <constraint firstItem="S9e-cx-kRg" firstAttribute="leading" secondItem="o1e-Wn-rOE" secondAttribute="leading" constant="22" id="XW6-pC-IYd"/>
                                     <constraint firstAttribute="trailing" secondItem="deI-HV-QKf" secondAttribute="trailing" constant="18" id="YAm-Q1-Xiq"/>
                                     <constraint firstAttribute="trailing" secondItem="S9e-cx-kRg" secondAttribute="trailing" constant="18" id="ZFc-58-kh1"/>
@@ -141,8 +139,10 @@
                                     <constraint firstAttribute="trailing" secondItem="Iqi-Uq-WEY" secondAttribute="trailing" constant="18" id="gqa-d6-HxM"/>
                                     <constraint firstItem="OFv-fB-wbT" firstAttribute="top" secondItem="o1e-Wn-rOE" secondAttribute="top" constant="87" id="iGJ-vb-yGP"/>
                                     <constraint firstAttribute="trailing" secondItem="59R-L3-eiV" secondAttribute="trailing" constant="42" id="ngH-Zq-R89"/>
+                                    <constraint firstAttribute="trailing" secondItem="Y1m-ST-dZV" secondAttribute="trailing" constant="171" id="noG-kk-nrY"/>
                                     <constraint firstItem="NKc-Xm-TFg" firstAttribute="leading" secondItem="o1e-Wn-rOE" secondAttribute="leading" constant="96" id="rSE-qF-hLp"/>
                                     <constraint firstItem="REs-sn-ebe" firstAttribute="top" secondItem="o1e-Wn-rOE" secondAttribute="top" constant="341" id="tSa-9e-qGx"/>
+                                    <constraint firstItem="Y1m-ST-dZV" firstAttribute="leading" secondItem="o1e-Wn-rOE" secondAttribute="leading" constant="22" id="w8w-1H-bQr"/>
                                 </constraints>
                             </view>
                         </subviews>

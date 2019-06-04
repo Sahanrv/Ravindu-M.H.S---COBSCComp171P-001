@@ -28,12 +28,25 @@
                                             <constraint firstAttribute="height" constant="240" id="UzK-yR-a7z"/>
                                         </constraints>
                                     </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NIBM Connect" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NUK-HC-lRA">
+                                        <rect key="frame" x="79" y="432" width="228" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="228" id="eBE-R7-HgU"/>
+                                            <constraint firstAttribute="height" constant="21" id="hiI-N5-b8k"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstItem="pRJ-rw-6GZ" firstAttribute="top" secondItem="2PJ-B2-QyK" secondAttribute="top" constant="213.5" id="1b2-hv-jp8"/>
                                     <constraint firstAttribute="trailing" secondItem="pRJ-rw-6GZ" secondAttribute="trailing" constant="68" id="3Wf-bf-99q"/>
                                     <constraint firstItem="pRJ-rw-6GZ" firstAttribute="leading" secondItem="2PJ-B2-QyK" secondAttribute="leading" constant="67" id="4Su-7R-Udn"/>
+                                    <constraint firstAttribute="trailing" secondItem="NUK-HC-lRA" secondAttribute="trailing" constant="68" id="N4p-hW-uH0"/>
+                                    <constraint firstItem="NUK-HC-lRA" firstAttribute="leading" secondItem="2PJ-B2-QyK" secondAttribute="leading" constant="79" id="NKX-5E-g6E"/>
+                                    <constraint firstItem="NUK-HC-lRA" firstAttribute="top" secondItem="2PJ-B2-QyK" secondAttribute="top" constant="432" id="iAo-zI-7wY"/>
                                 </constraints>
                             </view>
                         </subviews>

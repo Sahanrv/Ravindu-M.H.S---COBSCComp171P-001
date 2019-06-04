@@ -17,7 +17,6 @@
 		FB90405F2297A381006A1DFC /* MyProfileLoadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB90405E2297A381006A1DFC /* MyProfileLoadViewController.swift */; };
 		FB9040612297A39B006A1DFC /* HomeworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9040602297A39B006A1DFC /* HomeworkViewController.swift */; };
 		FB9040632297A540006A1DFC /* AddNewFriend.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB9040622297A540006A1DFC /* AddNewFriend.storyboard */; };
-		FB9040692297C4E6006A1DFC /* TouchIDAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9040682297C4E6006A1DFC /* TouchIDAuthentication.swift */; };
 		FB9431FE228D35B3007BE79D /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB9431FD228D35B2007BE79D /* Home.storyboard */; };
 		FB943200228D365A007BE79D /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB9431FF228D365A007BE79D /* Login.storyboard */; };
 		FB943204228D6948007BE79D /* AddStudentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB943203228D6948007BE79D /* AddStudentViewController.swift */; };
@@ -28,8 +27,6 @@
 		FBE239A522A63465006E65BF /* TJBioAuthenticator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE239A222A63464006E65BF /* TJBioAuthenticator.swift */; };
 		FBE239A822A63465006E65BF /* TJDefaultMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE239A322A63464006E65BF /* TJDefaultMessages.swift */; };
 		FBE239AB22A63465006E65BF /* TJAuthErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE239A422A63464006E65BF /* TJAuthErrors.swift */; };
-		FBEC4B2C2297C94700938E66 /* Extensions in Resources */ = {isa = PBXBuildFile; fileRef = FBEC4B2A2297C94600938E66 /* Extensions */; };
-		FBEC4B2D2297C94700938E66 /* BioAuth in Resources */ = {isa = PBXBuildFile; fileRef = FBEC4B2B2297C94600938E66 /* BioAuth */; };
 		FBECCB4722952281001ADF27 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBECCB4622952281001ADF27 /* SignUpViewController.swift */; };
 		FBECCB4922954C28001ADF27 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBECCB4822954C28001ADF27 /* User.swift */; };
 		FBECCB4B2295CFD5001ADF27 /* MyProfile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBECCB4A2295CFD5001ADF27 /* MyProfile.storyboard */; };
@@ -79,7 +76,6 @@
 		FB90405E2297A381006A1DFC /* MyProfileLoadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileLoadViewController.swift; sourceTree = "<group>"; };
 		FB9040602297A39B006A1DFC /* HomeworkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeworkViewController.swift; sourceTree = "<group>"; };
 		FB9040622297A540006A1DFC /* AddNewFriend.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AddNewFriend.storyboard; sourceTree = "<group>"; };
-		FB9040682297C4E6006A1DFC /* TouchIDAuthentication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TouchIDAuthentication.swift; path = ../../../TouchIDAuthentication.swift; sourceTree = "<group>"; };
 		FB9431FD228D35B2007BE79D /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		FB9431FF228D365A007BE79D /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		FB943203228D6948007BE79D /* AddStudentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStudentViewController.swift; sourceTree = "<group>"; };
@@ -90,8 +86,6 @@
 		FBE239A222A63464006E65BF /* TJBioAuthenticator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TJBioAuthenticator.swift; sourceTree = "<group>"; };
 		FBE239A322A63464006E65BF /* TJDefaultMessages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TJDefaultMessages.swift; sourceTree = "<group>"; };
 		FBE239A422A63464006E65BF /* TJAuthErrors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TJAuthErrors.swift; sourceTree = "<group>"; };
-		FBEC4B2A2297C94600938E66 /* Extensions */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Extensions; path = "../../../../Downloads/TJBioAuthentication-master/TJBioAuthentication/TJBioAuthentication/Extensions"; sourceTree = "<group>"; };
-		FBEC4B2B2297C94600938E66 /* BioAuth */ = {isa = PBXFileReference; lastKnownFileType = folder; name = BioAuth; path = "../../../../Downloads/TJBioAuthentication-master/TJBioAuthentication/TJBioAuthentication/BioAuth"; sourceTree = "<group>"; };
 		FBECCB4622952281001ADF27 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		FBECCB4822954C28001ADF27 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		FBECCB4A2295CFD5001ADF27 /* MyProfile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyProfile.storyboard; sourceTree = "<group>"; };
@@ -162,13 +156,6 @@
 				3AD8F6DA9A0432382094E55B /* Pods-Ravinsu M.H.S - COBSCComp171P-001UITests.release.xcconfig */,
 			);
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		FB63843D2297CF8400CE6B55 /* BioAuth */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = BioAuth;
 			sourceTree = "<group>";
 		};
 		FB9040652297A95B006A1DFC /* AddFriend */ = {
@@ -298,13 +285,9 @@
 				FBE239A422A63464006E65BF /* TJAuthErrors.swift */,
 				FBE239A222A63464006E65BF /* TJBioAuthenticator.swift */,
 				FBE239A322A63464006E65BF /* TJDefaultMessages.swift */,
-				FB63843D2297CF8400CE6B55 /* BioAuth */,
-				FB9040682297C4E6006A1DFC /* TouchIDAuthentication.swift */,
 				FBF6A1D3228C988900862F83 /* Info.plist */,
 				FBF6A1F5228C9D2900862F83 /* GoogleService-Info.plist */,
 				FBF6A1C7228C988800862F83 /* AppDelegate.swift */,
-				FBEC4B2B2297C94600938E66 /* BioAuth */,
-				FBEC4B2A2297C94600938E66 /* Extensions */,
 				FB9431F7228D2437007BE79D /* soryboads */,
 				FB9431F6228D242C007BE79D /* controllers */,
 				FB9431F5228D2414007BE79D /* models */,
@@ -440,7 +423,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBEC4B2C2297C94700938E66 /* Extensions in Resources */,
 				FBF6A1D2228C988900862F83 /* LaunchScreen.storyboard in Resources */,
 				FBB9DF8B229A400400A55193 /* Assets.xcassets in Resources */,
 				FB9040632297A540006A1DFC /* AddNewFriend.storyboard in Resources */,
@@ -448,7 +430,6 @@
 				FB943200228D365A007BE79D /* Login.storyboard in Resources */,
 				FBF6A1F6228C9D2900862F83 /* GoogleService-Info.plist in Resources */,
 				FB9431FE228D35B3007BE79D /* Home.storyboard in Resources */,
-				FBEC4B2D2297C94700938E66 /* BioAuth in Resources */,
 				FBF6A1CD228C988800862F83 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -625,7 +606,6 @@
 				FB943204228D6948007BE79D /* AddStudentViewController.swift in Sources */,
 				FB90405F2297A381006A1DFC /* MyProfileLoadViewController.swift in Sources */,
 				FB6216A922943438004F4E2A /* Re-setpasswordViewController.swift in Sources */,
-				FB9040692297C4E6006A1DFC /* TouchIDAuthentication.swift in Sources */,
 				FBF6A1CA228C988800862F83 /* ViewController.swift in Sources */,
 				FBBCD14A2293B21000B9CD1D /* LogInViewController.swift in Sources */,
 				FB9040612297A39B006A1DFC /* HomeworkViewController.swift in Sources */,

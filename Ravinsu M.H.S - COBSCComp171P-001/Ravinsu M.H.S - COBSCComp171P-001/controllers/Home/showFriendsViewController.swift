@@ -21,10 +21,11 @@ class showFriendsViewController: UIViewController {
         super.viewDidLoad()
         
         
+        self.studentImg.layer.cornerRadius = self.studentImg.bounds.height / 2
+        studentImg.clipsToBounds = true
         
-        
-        self.studenfName.text! = studentInfo.fName
-        self.studentlName.text! = studentInfo.lName
+        self.studenfName.text! = studentInfo.fName + " " + studentInfo.lName
+//        self.studentlName.text! = studentInfo.lName
         self.studentPhoneNumber.text! = String(studentInfo.phoneNumber!)
         self.studentFbProfile.text! = studentInfo.fbUrl
         let url = URL(string: studentInfo.profUrl)
